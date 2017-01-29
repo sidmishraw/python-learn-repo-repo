@@ -12,13 +12,13 @@ def monkmultiplication():
     q= [0,0,0]
     
     for i in A :
-        if i >= q[2] :
-            q[0]             = q[1]
-            q[1]             = q[2]
-            q[2]             = i
+        if i >= q[2]:
+            q[0] = q[1]
+            q[1] = q[2]
+            q[2] = i
         elif i < q[2] and i >= q[1] : 
-            q[0]             = q[1]
-            q[1]             = i
+            q[1] = i
+            q[0] = q[1]
         elif i < q[1] and i > q[0] :
             q[0] = i
         
