@@ -1,0 +1,1182 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"In",
+				"INPUT_FILE_PATH\tstatement"
+			],
+			[
+				"pa",
+				"path\tmodule"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"lis",
+				"list_of_items\tstatement"
+			],
+			[
+				"sr",
+				"source\tTag"
+			],
+			[
+				"Strig",
+				"string\tkeyword"
+			],
+			[
+				"re",
+				"request\tparam"
+			],
+			[
+				"open",
+				"open_session\tfunction"
+			],
+			[
+				"local",
+				"localtime\tfunction"
+			],
+			[
+				"s",
+				"strptime\tfunction"
+			],
+			[
+				"assi",
+				"assigned_to\tstatement"
+			],
+			[
+				"se",
+				"self\tparam"
+			],
+			[
+				"tas",
+				"task_setter\tstatement"
+			],
+			[
+				"is",
+				"is_complete_employee\tstatement"
+			],
+			[
+				"task",
+				"taskId\tstatement"
+			],
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"task_di",
+				"tasks_dict\tstatement"
+			],
+			[
+				"random",
+				"random\tstatement"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"get_taks",
+				"get_tasks_for"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"empl",
+				"employees\tglobalstmt"
+			],
+			[
+				"rep",
+				"reportees\tstatement"
+			],
+			[
+				"sta",
+				"status\tstatement"
+			],
+			[
+				"repr",
+				"get_reportees"
+			],
+			[
+				"tim",
+				"time\tclass"
+			],
+			[
+				"date",
+				"datetime\tmodule"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"method",
+				"methods"
+			],
+			[
+				"mana",
+				"manager_1\tstatement"
+			],
+			[
+				"man",
+				"manager\tparam"
+			],
+			[
+				"python",
+				"python"
+			],
+			[
+				"iscomple",
+				"is_complete_employee"
+			],
+			[
+				"st",
+				"start\tstatement"
+			],
+			[
+				"permut",
+				"permuted_strings"
+			],
+			[
+				"od",
+				"odd_char\tparam"
+			],
+			[
+				"permu",
+				"permute_fhalf"
+			],
+			[
+				"fir",
+				"first_half\tparam"
+			],
+			[
+				"odd",
+				"odd_char"
+			],
+			[
+				"firs",
+				"first_half"
+			],
+			[
+				"count",
+				"count_odd\tstatement"
+			],
+			[
+				"dic",
+				"dict_cache\tstatement"
+			],
+			[
+				"dum",
+				"dumps\tfunction"
+			],
+			[
+				"la",
+				"layer_nbr"
+			],
+			[
+				"rota",
+				"rotate_layer"
+			],
+			[
+				"lcm",
+				"lcm_a"
+			],
+			[
+				"lc",
+				"lcm_a"
+			],
+			[
+				"gc",
+				"gcd_b"
+			],
+			[
+				"gcd",
+				"gcd_list"
+			],
+			[
+				"cout",
+				"count_false\tstatement"
+			],
+			[
+				"true",
+				"True"
+			],
+			[
+				"mak",
+				"mark_all"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"e",
+				"element\tstatement"
+			],
+			[
+				"new",
+				"new_ps\tstatement"
+			],
+			[
+				"set",
+				"set_\tparam"
+			],
+			[
+				"gene",
+				"generate_permutations"
+			],
+			[
+				"zero",
+				"zero_matrix\tfunction"
+			],
+			[
+				"ze",
+				"zero_list"
+			],
+			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"__nam",
+				"__name__\tinstance"
+			],
+			[
+				"compre",
+				"compress_string\tfunction"
+			],
+			[
+				"com",
+				"compression_stack\tstatement"
+			],
+			[
+				"compressi",
+				"compression_stack\tstatement"
+			],
+			[
+				"check",
+				"check_edits\tfunction"
+			],
+			[
+				"item",
+				"items\tfunction"
+			],
+			[
+				"ac",
+				"actual_len\tstatement"
+			],
+			[
+				"it",
+				"items\tfunction"
+			],
+			[
+				"stirn",
+				"string_list\tstatement"
+			],
+			[
+				"stin",
+				"string_list\tstatement"
+			],
+			[
+				"rifh",
+				"right_shift_2sp\tfunction"
+			],
+			[
+				"string",
+				"string_list\tstatement"
+			],
+			[
+				"sting",
+				"string_list"
+			],
+			[
+				"strin",
+				"string_list\tparam"
+			],
+			[
+				"chec",
+				"check_string"
+			],
+			[
+				"dict",
+				"dictionary\tparam"
+			],
+			[
+				"hash",
+				"hashvalue\tstatement"
+			],
+			[
+				"has",
+				"hashvalue\tstatement"
+			],
+			[
+				"Key",
+				"KeyError\tclass"
+			],
+			[
+				"old",
+				"oldtable\tparam"
+			],
+			[
+				"t",
+				"table\tstatement"
+			],
+			[
+				"node",
+				"nodes\tforstmt"
+			],
+			[
+				"loa",
+				"load_factor\tstatement"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"ass",
+				"assigned_to\tparam"
+			],
+			[
+				"tak",
+				"taskId"
+			],
+			[
+				"em",
+				"empId\tparam"
+			],
+			[
+				"emp",
+				"empId"
+			],
+			[
+				"pos",
+				"postal_code\tparam"
+			],
+			[
+				"po",
+				"postal_code"
+			],
+			[
+				"sl",
+				"self\tparam"
+			],
+			[
+				"req",
+				"request\tinstance"
+			],
+			[
+				"r",
+				"run\tfunction"
+			],
+			[
+				"ra",
+				"rarr\tparam"
+			],
+			[
+				"mer",
+				"merged\tstatement"
+			],
+			[
+				"hep",
+				"helper\tstatement"
+			],
+			[
+				"he",
+				"helper\tstatement"
+			],
+			[
+				"help",
+				"helper\tparam"
+			],
+			[
+				"merge",
+				"mergesort\tfunction"
+			],
+			[
+				"min",
+				"minindex\tstatement"
+			],
+			[
+				"ope",
+				"operator\tstatement"
+			],
+			[
+				"oper",
+				"operand1\tstatement"
+			],
+			[
+				"eva",
+				"evaluate\tfunction"
+			],
+			[
+				"operand",
+				"operand_stack\tstatement"
+			],
+			[
+				"operator",
+				"operator_stack\tstatement"
+			],
+			[
+				"op",
+				"operand\tstatement"
+			],
+			[
+				"operan",
+				"operand_stack\tstatement"
+			],
+			[
+				"opr",
+				"operand1\tparam"
+			],
+			[
+				"opera",
+				"operator\tparam"
+			],
+			[
+				"len",
+				"length\tstatement"
+			],
+			[
+				"magic",
+				"magic_index_nd\tfunction"
+			],
+			[
+				"lef",
+				"left_val\tstatement"
+			],
+			[
+				"ma",
+				"magic_index_nd\tfunction"
+			],
+			[
+				"ke",
+				"key_char_int\tstatement"
+			],
+			[
+				"c",
+				"children\tstatement"
+			],
+			[
+				"trie",
+				"trie_root\tstatement"
+			],
+			[
+				"ro",
+				"robo_path\tfunction"
+			],
+			[
+				"one",
+				"ones_digit\tstatement"
+			],
+			[
+				"sum",
+				"sum_initial\tstatement"
+			],
+			[
+				"curr",
+				"currentl2\tstatement"
+			],
+			[
+				"cu",
+				"currentl2\tstatement"
+			],
+			[
+				"le",
+				"len_l2\tstatement"
+			],
+			[
+				"curre",
+				"currentl1\tstatement"
+			],
+			[
+				"allo",
+				"allow_promotion"
+			],
+			[
+				"pre",
+				"prev_color"
+			],
+			[
+				"all",
+				"allow_promotion"
+			],
+			[
+				"xpo",
+				"xpos"
+			],
+			[
+				"__pre",
+				"__predicted_date_time"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "transform.py",
+			"settings":
+			{
+				"buffer_size": 988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# osutil.py\n\"\"\"\n    sphinx.util.osutil\n    ~~~~~~~~~~~~~~~~~~\n\n    Operating system-related utility functions for Sphinx.\n\n    :copyright: Copyright 2007-2016 by the Sphinx team, see AUTHORS.\n    :license: BSD, see LICENSE for details.\n\"\"\"\nfrom __future__ import print_function\n\nimport os\nimport re\nimport sys\nimport time\nimport errno\nimport locale\nimport shutil\nimport filecmp\nfrom os import path\nimport contextlib\nfrom io import BytesIO, StringIO\n\nfrom six import PY2, text_type\n\n# Errnos that we need.\nEEXIST = getattr(errno, 'EEXIST', 0)\nENOENT = getattr(errno, 'ENOENT', 0)\nEPIPE  = getattr(errno, 'EPIPE', 0)\nEINVAL = getattr(errno, 'EINVAL', 0)\n\n# SEP separates path elements in the canonical file names\n#\n# Define SEP as a manifest constant, not so much because we expect it to change\n# in the future as to avoid the suspicion that a stray \"/\" in the code is a\n# hangover from more *nix-oriented origins.\nSEP = \"/\"\n\n\ndef os_path(canonicalpath):\n    return canonicalpath.replace(SEP, path.sep)\n\n\ndef canon_path(nativepath):\n    \"\"\"Return path in OS-independent form\"\"\"\n    return nativepath.replace(path.sep, SEP)\n\n\ndef relative_uri(base, to):\n    \"\"\"Return a relative URL from ``base`` to ``to``.\"\"\"\n    if to.startswith(SEP):\n        return to\n    b2 = base.split(SEP)\n    t2 = to.split(SEP)\n    # remove common segments (except the last segment)\n    for x, y in zip(b2[:-1], t2[:-1]):\n        if x != y:\n            break\n        b2.pop(0)\n        t2.pop(0)\n    if b2 == t2:\n        # Special case: relative_uri('f/index.html','f/index.html')\n        # returns '', not 'index.html'\n        return ''\n    if len(b2) == 1 and t2 == ['']:\n        # Special case: relative_uri('f/index.html','f/') should\n        # return './', not ''\n        return '.' + SEP\n    return ('..' + SEP) * (len(b2)-1) + SEP.join(t2)\n\n\ndef ensuredir(path):\n    \"\"\"Ensure that a path exists.\"\"\"\n    try:\n        os.makedirs(path)\n    except OSError as err:\n        # 0 for Jython/Win32\n        if err.errno not in [0, EEXIST]:\n            raise\n\n\n# This function is same as os.walk of Python2.7 except a customization\n# that check UnicodeError.\n# The customization obstacle to replace the function with the os.walk.\ndef walk(top, topdown=True, followlinks=False):\n    \"\"\"Backport of os.walk from 2.6, where the *followlinks* argument was\n    added.\n    \"\"\"\n    names = os.listdir(top)\n\n    dirs, nondirs = [], []\n    for name in names:\n        try:\n            fullpath = path.join(top, name)\n        except UnicodeError:\n            print('%s:: ERROR: non-ASCII filename not supported on this '\n                  'filesystem encoding %r, skipped.' % (name, fs_encoding),\n                  file=sys.stderr)\n            continue\n        if path.isdir(fullpath):\n            dirs.append(name)\n        else:\n            nondirs.append(name)\n\n    if topdown:\n        yield top, dirs, nondirs\n    for name in dirs:\n        fullpath = path.join(top, name)\n        if followlinks or not path.islink(fullpath):\n            for x in walk(fullpath, topdown, followlinks):\n                yield x\n    if not topdown:\n        yield top, dirs, nondirs\n\n\ndef mtimes_of_files(dirnames, suffix):\n    for dirname in dirnames:\n        for root, dirs, files in os.walk(dirname):\n            for sfile in files:\n                if sfile.endswith(suffix):\n                    try:\n                        yield path.getmtime(path.join(root, sfile))\n                    except EnvironmentError:\n                        pass\n\n\ndef movefile(source, dest):\n    \"\"\"Move a file, removing the destination if it exists.\"\"\"\n    if os.path.exists(dest):\n        try:\n            os.unlink(dest)\n        except OSError:\n            pass\n    os.rename(source, dest)\n\n\ndef copytimes(source, dest):\n    \"\"\"Copy a file's modification times.\"\"\"\n    st = os.stat(source)\n    if hasattr(os, 'utime'):\n        os.utime(dest, (st.st_atime, st.st_mtime))\n\n\ndef copyfile(source, dest):\n    \"\"\"Copy a file and its modification times, if possible.\n\n    Note: ``copyfile`` skips copying if the file has not been changed\"\"\"\n    if not path.exists(dest) or not filecmp.cmp(source, dest):\n        shutil.copyfile(source, dest)\n        try:\n            # don't do full copystat because the source may be read-only\n            copytimes(source, dest)\n        except OSError:\n            pass\n\n\nno_fn_re = re.compile(r'[^a-zA-Z0-9_-]')\n\n\ndef make_filename(string):\n    return no_fn_re.sub('', string) or 'sphinx'\n\n\ndef ustrftime(format, *args):\n    # [DEPRECATED] strftime for unicode strings\n    # It will be removed at Sphinx-1.5\n    if not args:\n        # If time is not specified, try to use $SOURCE_DATE_EPOCH variable\n        # See https://wiki.debian.org/ReproducibleBuilds/TimestampsProposal\n        source_date_epoch = os.getenv('SOURCE_DATE_EPOCH')\n        if source_date_epoch is not None:\n            time_struct = time.gmtime(float(source_date_epoch))\n            args = [time_struct]\n    if PY2:\n        # if a locale is set, the time strings are encoded in the encoding\n        # given by LC_TIME; if that is available, use it\n        enc = locale.getlocale(locale.LC_TIME)[1] or 'utf-8'\n        return time.strftime(text_type(format).encode(enc), *args).decode(enc)\n    else:  # Py3\n        # On Windows, time.strftime() and Unicode characters will raise UnicodeEncodeError.\n        # http://bugs.python.org/issue8304\n        try:\n            return time.strftime(format, *args)\n        except UnicodeEncodeError:\n            r = time.strftime(format.encode('unicode-escape').decode(), *args)\n            return r.encode().decode('unicode-escape')\n\n\ndef safe_relpath(path, start=None):\n    try:\n        return os.path.relpath(path, start)\n    except ValueError:\n        return path\n\n\nfs_encoding = sys.getfilesystemencoding() or sys.getdefaultencoding()\n\n\ndef abspath(pathdir):\n    pathdir = path.abspath(pathdir)\n    if isinstance(pathdir, bytes):\n        pathdir = pathdir.decode(fs_encoding)\n    return pathdir\n\n\ndef getcwd():\n    if hasattr(os, 'getcwdu'):\n        return os.getcwdu()\n    return os.getcwd()\n\n\n@contextlib.contextmanager\ndef cd(target_dir):\n    cwd = getcwd()\n    try:\n        os.chdir(target_dir)\n        yield\n    finally:\n        os.chdir(cwd)\n\n\nclass FileAvoidWrite(object):\n    \"\"\"File-like object that buffers output and only writes if content changed.\n\n    Use this class like when writing to a file to avoid touching the original\n    file if the content hasn't changed. This is useful in scenarios where file\n    mtime is used to invalidate caches or trigger new behavior.\n\n    When writing to this file handle, all writes are buffered until the object\n    is closed.\n\n    Objects can be used as context managers.\n    \"\"\"\n    def __init__(self, path):\n        self._path = path\n        self._io = None\n\n    def write(self, data):\n        if not self._io:\n            if isinstance(data, text_type):\n                self._io = StringIO()\n            else:\n                self._io = BytesIO()\n\n        self._io.write(data)\n\n    def close(self):\n        \"\"\"Stop accepting writes and write file, if needed.\"\"\"\n        if not self._io:\n            raise Exception('FileAvoidWrite does not support empty files.')\n\n        buf = self.getvalue()\n        self._io.close()\n\n        r_mode = 'r'\n        w_mode = 'w'\n        if isinstance(self._io, BytesIO):\n            r_mode = 'rb'\n            w_mode = 'wb'\n\n        old_content = None\n\n        try:\n            with open(self._path, r_mode) as old_f:\n                old_content = old_f.read()\n                if old_content == buf:\n                    return\n        except IOError:\n            pass\n\n        with open(self._path, w_mode) as f:\n            f.write(buf)\n\n    def __enter__(self):\n        return self\n\n    def __exit__(self, type, value, traceback):\n        self.close()\n\n    def __getattr__(self, name):\n        # Proxy to _io instance.\n        if not self._io:\n            raise Exception('Must write to FileAvoidWrite before other '\n                            'methods can be used')\n\n        return getattr(self._io, name)\n\n\ndef rmtree(path):\n    if os.path.isdir(path):\n        shutil.rmtree(path)\n    else:\n        os.remove(path)\n",
+			"file": "charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
+			"file_size": 8185,
+			"file_write_time": 131290770610000000,
+			"settings":
+			{
+				"buffer_size": 8173,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 249.0,
+		"last_filter": "Install ",
+		"selected_items":
+		[
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: reac",
+				"Snippet: React: class component"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: u",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"unins",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: Dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: rek",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: insa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: te",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 502.0
+	},
+	"console":
+	{
+		"height": 217.0,
+		"history":
+		[
+			"reload",
+			"os.environ.get('VIRTUAL_ENV')",
+			"import os",
+			"dir(sublime)",
+			"sublime",
+			"sublime.python_interpreter",
+			"dir(sublime)",
+			"sublime",
+			"dir(os)",
+			"help",
+			"help(os.path)",
+			"os.path('$VIRTUAL_ENV')",
+			"os.path()",
+			"os.path",
+			"dir(os)",
+			"dir()",
+			"import os",
+			"$VIRTUAL_ENV",
+			"dir(window)",
+			"dir(__package__)",
+			"dir()",
+			"sublime.packages_path()",
+			"sublime.packages_path",
+			"sublime.version()",
+			"sublime.version",
+			"dir(sublime)",
+			"dir()",
+			"python_interpreter_path",
+			"settings",
+			"exit()",
+			"dir(sys)",
+			"import sys",
+			"print()",
+			"print",
+			"import flask",
+			"python --version",
+			"dir()",
+			"ls",
+			"exit",
+			"clear()",
+			"clear",
+			"python3",
+			"exit",
+			"exit()",
+			"__author__",
+			"__name__",
+			"dir()",
+			"python3"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sidmishraw/Documents/workspace/PythonLearning"
+	],
+	"file_history":
+	[
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/PythonLearning.sublime-project",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
+		"/Users/sidmishraw/Documents/workspace/react_learning/src/task.jsx",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/react_learning/src/task.js",
+		"/Users/sidmishraw/Documents/workspace/react_learning/typescript_stuff/ts1.ts",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/TypeScript/TypeScript.sublime-settings",
+		"/Users/sidmishraw/Documents/SJSU/ClassesSpring2017/CS_185_C_NoSQL/Notes.md",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/RustLearning/helloworld/main.rs",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/core/service.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/project_amc_theatre.sublime-project",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/app.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/wrappers.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Glue/keymaps/Default (OSX).sublime-keymap",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/decoder.py",
+		"/usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/templates/user_landing.html",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/main_driver.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/Default.sublime-keymap",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/core/bo.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/itsdangerous.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/templating.py",
+		"/Library/Python/2.7/site-packages/flask/__init__.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/env.anaconda",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/.gitignore",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/requirements.txt",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/README.md",
+		"/Library/Python/2.7/site-packages/werkzeug/local.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/testing_cci.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/hrank.py",
+		"/Users/sidmishraw/Documents/workspace/amc_rough_node/templates/login.html",
+		"/Users/sidmishraw/Documents/workspace/amc_rough_node/index.js",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pymining/seqmining.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pymining/itemmining.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pymining/compat.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pymining/assocrules.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pymining/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/terminal.glue",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/templates/index.html",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/templates/login.html",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/.gitignore",
+		"/Users/sidmishraw/Documents/SJSU/ClassesSpring2017/CS_267/notes.md",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/example_flask.py",
+		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/core/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/kivy_1/build_kivy1.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/kivy_1/main.py",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/lists.py",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/example.py",
+		"/Users/sidmishraw/AndroidStudio/ProjectOrion/.gitignore",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/pychess1/gameplay.py",
+		"/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/pychess1/__init__.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/actransit_app/actransit_example.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/webbrowser.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/actransit_app/ac_transit_api_consumer/.gitignore",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/.editorconfig",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/hackerrank_python_exercises.py",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/trees/trees.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/README.md",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/setup.py",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/README.rst",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/HISTORY.rst",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/pychess1/pychess1.py",
+		"/Users/sidmishraw/Documents/workspace/pychess_sid_1/pychess1/docs/conf.py",
+		"/Users/sidmishraw/Documents/Databases/mysql-connector-python-2.1.5/setup.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/actransit_app/ac_transit_api_consumer/setup.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/actransit_app/ac_transit_api_consumer/ac_transit_api_consumer/ac_transit_api_consumer.py",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/actransit_app/ac_transit_api_consumer/ac_transit_api_consumer/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/jsstuffv1/node_start.js",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Default.sublime-keymap",
+		"/Users/sidmishraw/Documents/Books/js mdn tutorials/gallery-start/style.css",
+		"/Users/sidmishraw/Documents/Books/js mdn tutorials/gallery-start/main.js",
+		"/Users/sidmishraw/Documents/Books/js mdn tutorials/gallery-start/index.html",
+		"/usr/local/lib/python3.5/site-packages/pip/index.py",
+		"/usr/local/lib/python3.5/site-packages/pip/exceptions.py",
+		"/usr/local/lib/python3.5/site-packages/pip/download.py",
+		"/usr/local/lib/python3.5/site-packages/pip/locations.py",
+		"/usr/local/lib/python3.5/site-packages/pip/__init__.py",
+		"/usr/local/bin/pip3.5",
+		"/usr/local/lib/python3.5/site-packages/pip/__main__.py",
+		"/Users/sidmishraw/Documents/workspace/java_ds_implementations/java_points.txt",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/trees/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/test_trees_module.py",
+		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/Python.tmpl",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/README.md",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__pycache__/lists.cpython-35.pyc",
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__pycache__/__init__.cpython-35.pyc",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/CppRevisited/src/translationunits/lists.cpp",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/CppRevisited/src/headers/lists.h",
+		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/HeaderFile.tmpl",
+		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/C++.tmpl",
+		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/body_templates/HeaderFile.tmpl",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/main.cpp",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/lists.h",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/README.md",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/.gitignore",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/header1.h",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/main.cpp",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/abc.h",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/FileHeader/FileHeader.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/header_templates/C++.tmpl",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/header2test.h",
+		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/hackerrank_graphs.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"time",
+			"task",
+			"Task",
+			"reportees",
+			"user_dict",
+			" = ",
+			"request",
+			"Flask",
+			"flask",
+			"Flask",
+			"flask",
+			"is_complete",
+			"path",
+			"temp",
+			"MyQueue",
+			"*",
+			"\n*",
+			"interpreter",
+			"python interpreter",
+			"A",
+			"a_dict",
+			"b_dict",
+			"element[0]",
+			"hashvalue",
+			"left",
+			")",
+			"int(",
+			"false",
+			"count_ways",
+			"space",
+			"spaces",
+			"pep",
+			"interpreter",
+			"return",
+			"ACTransitStop",
+			"ACTransitStopsObject",
+			"option",
+			"alt",
+			"opt",
+			"init",
+			"50",
+			")\n",
+			"2",
+			"group",
+			"n",
+			"k",
+			"insert",
+			"transactions[i]",
+			"spend",
+			"transactions[i]",
+			"0",
+			"counting_array",
+			"median_count_sort",
+			"median_floor",
+			"array",
+			"  \n",
+			"1",
+			"key_element",
+			"pivot_index",
+			"j",
+			".(",
+			"       ",
+			"[]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "transform.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								252
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								8,
+								17,
+								57,
+								11,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5961,
+								5961
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								1,
+								16,
+								13,
+								51,
+								13,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 131.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PythonLearning.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"project_amc_theatre.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 97.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

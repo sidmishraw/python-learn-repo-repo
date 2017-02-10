@@ -1,6 +1,14 @@
 {
-  "settings":
-    {
-        "python_interpreter": "$VIRTUAL_ENV/bin/python"
-    }
+        "folders":
+        [
+                {
+                        "follow_symlinks": true,
+                        "path": "."
+                }
+        ],
+        "settings":
+        {
+                "python_interpreter": "/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/bin/python",
+                "auto_python_builder_enabled": false
+        }
 }
