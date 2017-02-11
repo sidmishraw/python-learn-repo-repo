@@ -523,18 +523,24 @@
 			"file": "transform.py",
 			"settings":
 			{
-				"buffer_size": 988,
+				"buffer_size": 2795,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "# osutil.py\n\"\"\"\n    sphinx.util.osutil\n    ~~~~~~~~~~~~~~~~~~\n\n    Operating system-related utility functions for Sphinx.\n\n    :copyright: Copyright 2007-2016 by the Sphinx team, see AUTHORS.\n    :license: BSD, see LICENSE for details.\n\"\"\"\nfrom __future__ import print_function\n\nimport os\nimport re\nimport sys\nimport time\nimport errno\nimport locale\nimport shutil\nimport filecmp\nfrom os import path\nimport contextlib\nfrom io import BytesIO, StringIO\n\nfrom six import PY2, text_type\n\n# Errnos that we need.\nEEXIST = getattr(errno, 'EEXIST', 0)\nENOENT = getattr(errno, 'ENOENT', 0)\nEPIPE  = getattr(errno, 'EPIPE', 0)\nEINVAL = getattr(errno, 'EINVAL', 0)\n\n# SEP separates path elements in the canonical file names\n#\n# Define SEP as a manifest constant, not so much because we expect it to change\n# in the future as to avoid the suspicion that a stray \"/\" in the code is a\n# hangover from more *nix-oriented origins.\nSEP = \"/\"\n\n\ndef os_path(canonicalpath):\n    return canonicalpath.replace(SEP, path.sep)\n\n\ndef canon_path(nativepath):\n    \"\"\"Return path in OS-independent form\"\"\"\n    return nativepath.replace(path.sep, SEP)\n\n\ndef relative_uri(base, to):\n    \"\"\"Return a relative URL from ``base`` to ``to``.\"\"\"\n    if to.startswith(SEP):\n        return to\n    b2 = base.split(SEP)\n    t2 = to.split(SEP)\n    # remove common segments (except the last segment)\n    for x, y in zip(b2[:-1], t2[:-1]):\n        if x != y:\n            break\n        b2.pop(0)\n        t2.pop(0)\n    if b2 == t2:\n        # Special case: relative_uri('f/index.html','f/index.html')\n        # returns '', not 'index.html'\n        return ''\n    if len(b2) == 1 and t2 == ['']:\n        # Special case: relative_uri('f/index.html','f/') should\n        # return './', not ''\n        return '.' + SEP\n    return ('..' + SEP) * (len(b2)-1) + SEP.join(t2)\n\n\ndef ensuredir(path):\n    \"\"\"Ensure that a path exists.\"\"\"\n    try:\n        os.makedirs(path)\n    except OSError as err:\n        # 0 for Jython/Win32\n        if err.errno not in [0, EEXIST]:\n            raise\n\n\n# This function is same as os.walk of Python2.7 except a customization\n# that check UnicodeError.\n# The customization obstacle to replace the function with the os.walk.\ndef walk(top, topdown=True, followlinks=False):\n    \"\"\"Backport of os.walk from 2.6, where the *followlinks* argument was\n    added.\n    \"\"\"\n    names = os.listdir(top)\n\n    dirs, nondirs = [], []\n    for name in names:\n        try:\n            fullpath = path.join(top, name)\n        except UnicodeError:\n            print('%s:: ERROR: non-ASCII filename not supported on this '\n                  'filesystem encoding %r, skipped.' % (name, fs_encoding),\n                  file=sys.stderr)\n            continue\n        if path.isdir(fullpath):\n            dirs.append(name)\n        else:\n            nondirs.append(name)\n\n    if topdown:\n        yield top, dirs, nondirs\n    for name in dirs:\n        fullpath = path.join(top, name)\n        if followlinks or not path.islink(fullpath):\n            for x in walk(fullpath, topdown, followlinks):\n                yield x\n    if not topdown:\n        yield top, dirs, nondirs\n\n\ndef mtimes_of_files(dirnames, suffix):\n    for dirname in dirnames:\n        for root, dirs, files in os.walk(dirname):\n            for sfile in files:\n                if sfile.endswith(suffix):\n                    try:\n                        yield path.getmtime(path.join(root, sfile))\n                    except EnvironmentError:\n                        pass\n\n\ndef movefile(source, dest):\n    \"\"\"Move a file, removing the destination if it exists.\"\"\"\n    if os.path.exists(dest):\n        try:\n            os.unlink(dest)\n        except OSError:\n            pass\n    os.rename(source, dest)\n\n\ndef copytimes(source, dest):\n    \"\"\"Copy a file's modification times.\"\"\"\n    st = os.stat(source)\n    if hasattr(os, 'utime'):\n        os.utime(dest, (st.st_atime, st.st_mtime))\n\n\ndef copyfile(source, dest):\n    \"\"\"Copy a file and its modification times, if possible.\n\n    Note: ``copyfile`` skips copying if the file has not been changed\"\"\"\n    if not path.exists(dest) or not filecmp.cmp(source, dest):\n        shutil.copyfile(source, dest)\n        try:\n            # don't do full copystat because the source may be read-only\n            copytimes(source, dest)\n        except OSError:\n            pass\n\n\nno_fn_re = re.compile(r'[^a-zA-Z0-9_-]')\n\n\ndef make_filename(string):\n    return no_fn_re.sub('', string) or 'sphinx'\n\n\ndef ustrftime(format, *args):\n    # [DEPRECATED] strftime for unicode strings\n    # It will be removed at Sphinx-1.5\n    if not args:\n        # If time is not specified, try to use $SOURCE_DATE_EPOCH variable\n        # See https://wiki.debian.org/ReproducibleBuilds/TimestampsProposal\n        source_date_epoch = os.getenv('SOURCE_DATE_EPOCH')\n        if source_date_epoch is not None:\n            time_struct = time.gmtime(float(source_date_epoch))\n            args = [time_struct]\n    if PY2:\n        # if a locale is set, the time strings are encoded in the encoding\n        # given by LC_TIME; if that is available, use it\n        enc = locale.getlocale(locale.LC_TIME)[1] or 'utf-8'\n        return time.strftime(text_type(format).encode(enc), *args).decode(enc)\n    else:  # Py3\n        # On Windows, time.strftime() and Unicode characters will raise UnicodeEncodeError.\n        # http://bugs.python.org/issue8304\n        try:\n            return time.strftime(format, *args)\n        except UnicodeEncodeError:\n            r = time.strftime(format.encode('unicode-escape').decode(), *args)\n            return r.encode().decode('unicode-escape')\n\n\ndef safe_relpath(path, start=None):\n    try:\n        return os.path.relpath(path, start)\n    except ValueError:\n        return path\n\n\nfs_encoding = sys.getfilesystemencoding() or sys.getdefaultencoding()\n\n\ndef abspath(pathdir):\n    pathdir = path.abspath(pathdir)\n    if isinstance(pathdir, bytes):\n        pathdir = pathdir.decode(fs_encoding)\n    return pathdir\n\n\ndef getcwd():\n    if hasattr(os, 'getcwdu'):\n        return os.getcwdu()\n    return os.getcwd()\n\n\n@contextlib.contextmanager\ndef cd(target_dir):\n    cwd = getcwd()\n    try:\n        os.chdir(target_dir)\n        yield\n    finally:\n        os.chdir(cwd)\n\n\nclass FileAvoidWrite(object):\n    \"\"\"File-like object that buffers output and only writes if content changed.\n\n    Use this class like when writing to a file to avoid touching the original\n    file if the content hasn't changed. This is useful in scenarios where file\n    mtime is used to invalidate caches or trigger new behavior.\n\n    When writing to this file handle, all writes are buffered until the object\n    is closed.\n\n    Objects can be used as context managers.\n    \"\"\"\n    def __init__(self, path):\n        self._path = path\n        self._io = None\n\n    def write(self, data):\n        if not self._io:\n            if isinstance(data, text_type):\n                self._io = StringIO()\n            else:\n                self._io = BytesIO()\n\n        self._io.write(data)\n\n    def close(self):\n        \"\"\"Stop accepting writes and write file, if needed.\"\"\"\n        if not self._io:\n            raise Exception('FileAvoidWrite does not support empty files.')\n\n        buf = self.getvalue()\n        self._io.close()\n\n        r_mode = 'r'\n        w_mode = 'w'\n        if isinstance(self._io, BytesIO):\n            r_mode = 'rb'\n            w_mode = 'wb'\n\n        old_content = None\n\n        try:\n            with open(self._path, r_mode) as old_f:\n                old_content = old_f.read()\n                if old_content == buf:\n                    return\n        except IOError:\n            pass\n\n        with open(self._path, w_mode) as f:\n            f.write(buf)\n\n    def __enter__(self):\n        return self\n\n    def __exit__(self, type, value, traceback):\n        self.close()\n\n    def __getattr__(self, name):\n        # Proxy to _io instance.\n        if not self._io:\n            raise Exception('Must write to FileAvoidWrite before other '\n                            'methods can be used')\n\n        return getattr(self._io, name)\n\n\ndef rmtree(path):\n    if os.path.isdir(path):\n        shutil.rmtree(path)\n    else:\n        os.remove(path)\n",
-			"file": "charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
-			"file_size": 8185,
-			"file_write_time": 131290770610000000,
+			"file": "input.txt",
 			"settings":
 			{
-				"buffer_size": 8173,
+				"buffer_size": 134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "PythonLearning.sublime-project",
+			"settings":
+			{
+				"buffer_size": 373,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,9 +553,13 @@
 	"command_palette":
 	{
 		"height": 249.0,
-		"last_filter": "Install ",
+		"last_filter": "Install",
 		"selected_items":
 		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
 			[
 				"Install ",
 				"Package Control: Install Package"
@@ -635,7 +645,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 502.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -707,9 +717,16 @@
 	],
 	"file_history":
 	[
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Python Breakpoints/PythonBreakpoints.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/_weakrefset.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/weakref.py",
+		"/Users/sidmishraw/.pyenv/versions/3.5.2/lib/python3.5/pprint.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/os.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/PythonLearning.sublime-project",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
 		"/Users/sidmishraw/Documents/workspace/react_learning/src/task.jsx",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
@@ -725,7 +742,6 @@
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/project_amc_theatre.sublime-project",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/__init__.py",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/app.py",
-		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/ivysaur/lib/python3.5/site-packages/flask/wrappers.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
@@ -828,17 +844,11 @@
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/README.md",
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/.gitignore",
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/header1.h",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/main.cpp",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/abc.h",
-		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/FileHeader/FileHeader.sublime-settings",
-		"/Users/sidmishraw/Documents/workspace/header_templates/C++.tmpl",
-		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/header2test.h",
-		"/Users/sidmishraw/Documents/workspace/pythonstuffv1/hackerrank_graphs.py"
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/main.cpp"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -933,7 +943,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -942,19 +952,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 988,
+						"buffer_size": 2795,
 						"regions":
 						{
+							"bp-e6721465":
+							{
+								"flags": 16,
+								"icon": "circle",
+								"regions":
+								[
+									[
+										1835,
+										1836
+									]
+								],
+								"scope": "invalid"
+							}
 						},
 						"selection":
 						[
 							[
-								246,
-								252
+								1820,
+								1836
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"c_time":
 							[
 								128,
@@ -985,10 +1019,10 @@
 								7,
 								225,
 								2,
-								8,
-								17,
-								57,
-								11,
+								9,
+								18,
+								40,
+								4,
 								0,
 								0,
 								0,
@@ -1010,24 +1044,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
-					"semi_transient": false,
+					"file": "input.txt",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 8173,
+						"buffer_size": 134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5961,
-								5961
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1061,11 +1095,11 @@
 								10,
 								7,
 								225,
-								1,
-								16,
-								13,
-								51,
-								13,
+								2,
+								9,
+								18,
+								33,
+								58,
 								0,
 								0,
 								0,
@@ -1079,15 +1113,90 @@
 								3,
 								46
 							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "PythonLearning.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								9,
+								18,
+								33,
+								58,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 8,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

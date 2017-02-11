@@ -3,7 +3,7 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-02-07 19:07:30
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-08 23:24:31
+# @Last Modified time: 2017-02-10 23:04:06
 
 
 
@@ -12,7 +12,7 @@ Transforms the given table into a bitmap
 '''
 from os import getcwd
 from pprint import pprint
-from weakref import proxy
+# from weakref import proxy
 from weakref import WeakSet
 
 
@@ -100,6 +100,7 @@ def process_item_cache():
   '''
   processes the ITEM_CACHE and drops the items that donot meet the minimum threshold
   '''
+
   global ITEM_CACHE, MIN_THRESHOLD
 
   dupl = dict(ITEM_CACHE)
