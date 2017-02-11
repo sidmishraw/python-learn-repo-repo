@@ -3,14 +3,17 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-02-07 19:07:30
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-10 23:04:06
+# @Last Modified time: 2017-02-11 14:20:34
 
 
 
 
 '''
-Transforms the given table into a bitmap
+Transforms the given table into a hyper-graph. Trying to mine new patterns.
+The reason I'm using a WeakSet instead of set is to hold weakrefs for the CharNode objs 
+with the only strong reference held by the ITEM_CACHE.
 '''
+
 from os import getcwd
 from pprint import pprint
 from weakref import proxy
@@ -39,7 +42,7 @@ class Row(object):
 
 class CharNode(object):
   '''
-  character node
+  The CharNode is an encapsulation for the DataNode for the Hypergraph.
   '''
 
   def __init__(self, value):
@@ -77,10 +80,10 @@ def parse_block(string_block):
 
 def process_block(rows):
   '''
+  Take in the rows, a list of Row objects and build up the ITEM_CACHE
   :input-param: rows : list of Row objects
   '''
   global ITEM_CACHE
-  from pprint import pprint
 
   for row in rows:
     prev = None
@@ -93,14 +96,17 @@ def process_block(rows):
         prev.neighbors.add(ITEM_CACHE[e])
         prev.out_degree += 1
         traversal_set.add(prev)
-      ITEM_CACHE[e].parents = ITEM_CACHE[e].parents.intersection(set(traversal_set))
+      ITEM_CACHE[e].parents = ITEM_CACHE[e].parents.union(WeakSet(traversal_set))
       prev = ITEM_CACHE[e]
   return
 
 
 def process_item_cache():
   '''
-  :return: nothing
+  Process the item cache, dropping the elements that have an outdegree lower than the
+  required MIN_THRESHOLD.
+  Since the parents and neighbors of each CharNode are WeakSets maintaining weakrefs,
+  there is not additional need for removing them once removed from the ITEM_CACHE.
   '''
 
   global ITEM_CACHE, MIN_THRESHOLD
