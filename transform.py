@@ -7,12 +7,13 @@
 
 
 
+
 '''
 Transforms the given table into a bitmap
 '''
 from os import getcwd
 from pprint import pprint
-# from weakref import proxy
+from weakref import proxy
 from weakref import WeakSet
 
 
@@ -84,6 +85,7 @@ def process_block(rows):
   for row in rows:
     prev = None
     traversal_set = WeakSet()
+    parents_cache_row = {}
     for e in row.list_of_items:
       if e not in ITEM_CACHE:
         ITEM_CACHE[e] = CharNode(e)
@@ -91,14 +93,14 @@ def process_block(rows):
         prev.neighbors.add(ITEM_CACHE[e])
         prev.out_degree += 1
         traversal_set.add(prev)
-      ITEM_CACHE[e].parents = ITEM_CACHE[e].parents.union(set(traversal_set))
+      ITEM_CACHE[e].parents = ITEM_CACHE[e].parents.intersection(set(traversal_set))
       prev = ITEM_CACHE[e]
   return
 
 
 def process_item_cache():
   '''
-  processes the ITEM_CACHE and drops the items that donot meet the minimum threshold
+  :return: nothing
   '''
 
   global ITEM_CACHE, MIN_THRESHOLD
