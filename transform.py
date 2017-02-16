@@ -3,7 +3,7 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-02-07 19:07:30
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-11 14:20:34
+# @Last Modified time: 2017-02-12 13:45:28
 
 
 
@@ -83,6 +83,7 @@ def process_block(rows):
   Take in the rows, a list of Row objects and build up the ITEM_CACHE
   :input-param: rows : list of Row objects
   '''
+  
   global ITEM_CACHE
 
   for row in rows:
@@ -108,6 +109,8 @@ def process_item_cache():
   Since the parents and neighbors of each CharNode are WeakSets maintaining weakrefs,
   there is not additional need for removing them once removed from the ITEM_CACHE.
   '''
+  
+  from gc import collect
 
   global ITEM_CACHE, MIN_THRESHOLD
 
@@ -116,18 +119,49 @@ def process_item_cache():
     if dupl[k].out_degree < MIN_THRESHOLD:
       del ITEM_CACHE[k]
   del dupl
-  pprint(ITEM_CACHE)
+  # forcibly doing a garbage collection to make sure that the duplicate
+  # dictionary doesn't keep references back to the deleted CharNode objects.
+  collect()
+  return
+
+
+# Till now, I have gotten myself a pattern, that I think can give me all the 
+# necessary information. But, it also has patterns that are not needed. This requires a second
+# pass to filter those patterns out
+def process_item_cache_filter():
+  '''
+  Processes the ITEM_CACHE to remove the unwanted edges from the hypergraph.
+  This is the phase 2 of this procedure.
+  '''
+
+  global ITEM_CACHE
+
   return
 
 
 
+
+
+
+
+
 if __name__ == '__main__':
+  
   input_string_block = None
   with open(INPUT_FILE_PATH, 'r', encoding='utf-8') as f:
     input_string_block = f.read().strip('\n').strip('   ')
     print(input_string_block)
   parsed_block = parse_block(input_string_block)
   process_block(parsed_block)
+  # print the ITEM_CACHE after building it
+  pprint('The item cache after being built from the input')
+  pprint(ITEM_CACHE)
+  # process the itemcache to remove the CharNode objects that are below the
+  # threshold
+  process_item_cache()
+  # print the modified ITEM_CACHE
+  pprint(ITEM_CACHE)
+
 
 
 

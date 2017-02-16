@@ -3,7 +3,7 @@
 # # @Author: Sidharth Mishra
 # # @Date:   2017-01-20 14:42:42
 # # @Last Modified by:   Sidharth Mishra
-# # @Last Modified time: 2017-01-30 12:15:51
+# # @Last Modified time: 2017-02-16 14:30:52
 
 # import re
 
@@ -851,3 +851,33 @@
 
 
 
+# doc = None
+# pdf = None
+# parser = None
+# device = None
+# resource_manager = None
+# codec = 'utf-8'
+# # the image writer is going to do all the writing to
+# # output text file I pass in
+# image_writer = None
+# interpreter = None
+# output_path = 'sid_output.txt'
+
+# # steps - 
+# # Initialize a PDFParser since pdf document can be quite large
+# # Initialize a PDFDocument to hold the parsed pdf document
+# with open(r'Sidharth Mishra.pdf', 'rb') as f, \
+# open(output_path, 'w') as op:
+#   # link the open file to the parser
+#   parser = PDFParser(f)
+#   # link the pdfdocument to the parser
+#   pdf = PDFDocument(parser)
+#   # initialize the imagewriter, resource manager, device and interpreter
+#   # imagewriter is the last renderer
+#   imagewriter = ImageWriter(output_path)
+#   resource_manager = PDFResourceManager()
+#   device = TextConverter(resource_manager, op, codec, imagewriter=imagewriter)
+#   interpreter = PDFPageInterpreter(resource_manager, device)
+#   for page in PDFPage.create_pages(pdf):
+#     interpreter.process_page(page)
+#   device.close()

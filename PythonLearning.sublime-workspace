@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"dic",
+				"dict_bac\tstatement"
+			],
+			[
+				"json",
+				"json_string\tstatement"
+			],
+			[
+				"proces",
+				"process_item_cache\tfunction"
+			],
+			[
 				"In",
 				"INPUT_FILE_PATH\tstatement"
 			],
@@ -166,10 +178,6 @@
 			[
 				"count",
 				"count_odd\tstatement"
-			],
-			[
-				"dic",
-				"dict_cache\tstatement"
 			],
 			[
 				"dum",
@@ -506,14 +514,6 @@
 			[
 				"all",
 				"allow_promotion"
-			],
-			[
-				"xpo",
-				"xpos"
-			],
-			[
-				"__pre",
-				"__predicted_date_time"
 			]
 		]
 	},
@@ -523,16 +523,17 @@
 			"file": "transform.py",
 			"settings":
 			{
-				"buffer_size": 2795,
+				"buffer_size": 4178,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "input.txt",
+			"file": "read_bacteria.py",
 			"settings":
 			{
-				"buffer_size": 134,
+				"buffer_size": 576,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -541,6 +542,14 @@
 			"settings":
 			{
 				"buffer_size": 373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".pydevproject",
+			"settings":
+			{
+				"buffer_size": 429,
 				"line_ending": "Unix"
 			}
 		}
@@ -552,8 +561,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 249.0,
-		"last_filter": "Install",
+		"height": 291.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -717,15 +726,17 @@
 	],
 	"file_history":
 	[
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/bacteria.json",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/PythonLearning.sublime-project",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/weakref.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/anaconda_rust/AnacondaRUST.sublime-settings",
+		"/Users/sidmishraw/.pyenv/versions/3.5.2/lib/python3.5/pprint.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Python Breakpoints/PythonBreakpoints.sublime-settings",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/_weakrefset.py",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/weakref.py",
-		"/Users/sidmishraw/.pyenv/versions/3.5.2/lib/python3.5/pprint.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/os.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/PythonLearning.sublime-project",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py",
 		"/Users/sidmishraw/Documents/workspace/react_learning/src/task.jsx",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
@@ -842,9 +853,7 @@
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/main.cpp",
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/lists.h",
 		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/README.md",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/.gitignore",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/headers/header1.h",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/Back_to_cpp/Back_to_cpp/main.cpp"
+		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/.gitignore"
 	],
 	"find":
 	{
@@ -952,28 +961,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2795,
+						"buffer_size": 4178,
 						"regions":
 						{
-							"bp-e6721465":
-							{
-								"flags": 16,
-								"icon": "circle",
-								"regions":
-								[
-									[
-										1835,
-										1836
-									]
-								],
-								"scope": "invalid"
-							}
 						},
 						"selection":
 						[
 							[
-								1820,
-								1836
+								3508,
+								3508
 							]
 						],
 						"settings":
@@ -983,6 +979,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								},
 								{
 									"characters": ".",
@@ -1041,7 +1041,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1865.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1049,23 +1049,34 @@
 				},
 				{
 					"buffer": 1,
-					"file": "input.txt",
-					"semi_transient": true,
+					"file": "read_bacteria.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 134,
+						"buffer_size": 576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								576,
+								576
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"c_time":
 							[
 								128,
@@ -1096,10 +1107,10 @@
 								7,
 								225,
 								2,
-								9,
-								18,
-								33,
-								58,
+								13,
+								0,
+								48,
+								54,
 								0,
 								0,
 								0,
@@ -1113,7 +1124,7 @@
 								3,
 								46
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1125,7 +1136,7 @@
 				{
 					"buffer": 2,
 					"file": "PythonLearning.sublime-project",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 373,
@@ -1197,6 +1208,81 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".pydevproject",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								4,
+								16,
+								54,
+								39,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1283,7 +1369,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 97.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
