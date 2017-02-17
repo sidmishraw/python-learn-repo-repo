@@ -3,7 +3,7 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-02-15 13:42:12
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-16 14:30:30
+# @Last Modified time: 2017-02-16 21:52:33
 
 
 __author__ = 'sidmishraw'
@@ -30,6 +30,8 @@ from sys import argv
 from sys import exit
 from re import match
 from re import compile
+from traceback import print_exc
+from sys import stdout
 
 
 # command line UI builder for this utility
@@ -160,6 +162,7 @@ if __name__ == '__main__':
   Takes as input the input PDF files and the output directory and outputs
   the extracted text for each PDF file.
   '''
+
   try:
     input_files, output_dir = read_inputs()
     print(input_files, output_dir)
@@ -169,6 +172,6 @@ if __name__ == '__main__':
     for input_file in input_files:
       process_pdf(input_file, output_dir[0])
   except Exception as e:
-    print(e)
+    print_exc(file=stdout)
     exit(0)
 
