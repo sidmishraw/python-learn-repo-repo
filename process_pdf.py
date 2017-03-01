@@ -3,7 +3,7 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-02-15 13:42:12
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-02-16 21:52:33
+# @Last Modified time: 2017-02-26 19:31:59
 
 
 __author__ = 'sidmishraw'
@@ -47,6 +47,7 @@ from pdfminer.pdfdevice import PDFDevice
 from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.converter import TextConverter
+from pdfminer.converter import HTMLConverter
 from pdfminer.image import ImageWriter
 from pdfminer.pdfinterp import PDFResourceManager
 
@@ -94,6 +95,7 @@ def __generate_op_file_name__(ip_file, output_dir):
   if extension != 'pdf':
     return None
   op_file = output_dir + SEPARATOR + file_name + '.txt'
+  # op_file = output_dir + SEPARATOR + file_name + '.html'
   return op_file
 
 
@@ -111,6 +113,8 @@ def __process_pdf__(f, o, output_path):
   :return: None
   '''
 
+  import pdb
+
   # setting codec to utf-8
   codec = 'utf-8'
   # link the open file to the parser
@@ -122,7 +126,11 @@ def __process_pdf__(f, o, output_path):
   imagewriter = ImageWriter(output_path)
   resource_manager = PDFResourceManager()
   device = TextConverter(resource_manager, o, codec, imagewriter=imagewriter)
+  # device = HTMLConverter(resource_manager, o, codec, imagewriter=imagewriter)
   interpreter = PDFPageInterpreter(resource_manager, device)
+
+  pdb.set_trace()
+
   for page in PDFPage.create_pages(pdf):
     interpreter.process_page(page)
   device.close()
@@ -150,7 +158,7 @@ def process_pdf(input_file, output_dir):
     if not op_file:
       continue
     with open(ip_file, 'rb') as f,\
-    open(op_file, 'w') as o:
+    open(op_file, 'wt') as o:
       __process_pdf__(f, o, op_file)
 
 

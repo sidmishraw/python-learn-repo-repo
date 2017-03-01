@@ -4,6 +4,154 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max_sum\tstatement"
+			],
+			[
+				"sum",
+				"sum_symbol\tstatement"
+			],
+			[
+				"encod",
+				"encoding"
+			],
+			[
+				"print",
+				"print_exc\tfunction"
+			],
+			[
+				"wih",
+				"with_traceback\tfunction"
+			],
+			[
+				"path",
+				"pathsep\tinstance"
+			],
+			[
+				"op",
+				"op_file\tstatement"
+			],
+			[
+				"file",
+				"file_name\tstatement"
+			],
+			[
+				"pah",
+				"pathsep\tinstance"
+			],
+			[
+				"lis",
+				"list_files\tstatement"
+			],
+			[
+				"out",
+				"output_dir"
+			],
+			[
+				"inp",
+				"input_file\tforstmt"
+			],
+			[
+				"in",
+				"input_files\tstatement"
+			],
+			[
+				"parsed",
+				"parsed_args\tstatement"
+			],
+			[
+				"ls",
+				"listdir\tfunction"
+			],
+			[
+				"is",
+				"isdir\tfunction"
+			],
+			[
+				"with",
+				"with_traceback\tfunction"
+			],
+			[
+				"parse",
+				"parse_args"
+			],
+			[
+				"input",
+				"input_files"
+			],
+			[
+				"pars",
+				"parsed_args\tstatement"
+			],
+			[
+				"inpt",
+				"input_files"
+			],
+			[
+				"Argume",
+				"ArgumentError\tclass"
+			],
+			[
+				"GET",
+				"GetoptError\tclass"
+			],
+			[
+				"ex",
+				"exit\tinstance"
+			],
+			[
+				"sub",
+				"subprocess\tmodule"
+			],
+			[
+				"int",
+				"interpreter\tstatement"
+			],
+			[
+				"get",
+				"get_pages\tfunction"
+			],
+			[
+				"PDFInt",
+				"PDFPageInterpreter\tclass"
+			],
+			[
+				"res",
+				"resource_manager\tstatement"
+			],
+			[
+				"PDF",
+				"PDFResourceManager\tclass"
+			],
+			[
+				"P",
+				"PDFPage\tclass"
+			],
+			[
+				"pdfp",
+				"pdfpage\tmodule"
+			],
+			[
+				"PDFIn",
+				"PDFPageInterpreter\tclass"
+			],
+			[
+				"pdfpa",
+				"pdfparser\tmodule"
+			],
+			[
+				"PD",
+				"PDFStream\tclass"
+			],
+			[
+				"pdf",
+				"pdfminer\tmodule"
+			],
+			[
+				"read",
+				"readline\tfunction"
+			],
+			[
 				"dic",
 				"dict_bac\tstatement"
 			],
@@ -26,10 +174,6 @@
 			[
 				"str",
 				"strip"
-			],
-			[
-				"lis",
-				"list_of_items\tstatement"
 			],
 			[
 				"sr",
@@ -68,16 +212,8 @@
 				"task_setter\tstatement"
 			],
 			[
-				"is",
-				"is_complete_employee\tstatement"
-			],
-			[
 				"task",
 				"taskId\tstatement"
-			],
-			[
-				"print",
-				"println\tprintln!(…)"
 			],
 			[
 				"task_di",
@@ -218,10 +354,6 @@
 			[
 				"mak",
 				"mark_all"
-			],
-			[
-				"in",
-				"index"
 			],
 			[
 				"e",
@@ -382,174 +514,81 @@
 			[
 				"r",
 				"run\tfunction"
-			],
-			[
-				"ra",
-				"rarr\tparam"
-			],
-			[
-				"mer",
-				"merged\tstatement"
-			],
-			[
-				"hep",
-				"helper\tstatement"
-			],
-			[
-				"he",
-				"helper\tstatement"
-			],
-			[
-				"help",
-				"helper\tparam"
-			],
-			[
-				"merge",
-				"mergesort\tfunction"
-			],
-			[
-				"min",
-				"minindex\tstatement"
-			],
-			[
-				"ope",
-				"operator\tstatement"
-			],
-			[
-				"oper",
-				"operand1\tstatement"
-			],
-			[
-				"eva",
-				"evaluate\tfunction"
-			],
-			[
-				"operand",
-				"operand_stack\tstatement"
-			],
-			[
-				"operator",
-				"operator_stack\tstatement"
-			],
-			[
-				"op",
-				"operand\tstatement"
-			],
-			[
-				"operan",
-				"operand_stack\tstatement"
-			],
-			[
-				"opr",
-				"operand1\tparam"
-			],
-			[
-				"opera",
-				"operator\tparam"
-			],
-			[
-				"len",
-				"length\tstatement"
-			],
-			[
-				"magic",
-				"magic_index_nd\tfunction"
-			],
-			[
-				"lef",
-				"left_val\tstatement"
-			],
-			[
-				"ma",
-				"magic_index_nd\tfunction"
-			],
-			[
-				"ke",
-				"key_char_int\tstatement"
-			],
-			[
-				"c",
-				"children\tstatement"
-			],
-			[
-				"trie",
-				"trie_root\tstatement"
-			],
-			[
-				"ro",
-				"robo_path\tfunction"
-			],
-			[
-				"one",
-				"ones_digit\tstatement"
-			],
-			[
-				"sum",
-				"sum_initial\tstatement"
-			],
-			[
-				"curr",
-				"currentl2\tstatement"
-			],
-			[
-				"cu",
-				"currentl2\tstatement"
-			],
-			[
-				"le",
-				"len_l2\tstatement"
-			],
-			[
-				"curre",
-				"currentl1\tstatement"
-			],
-			[
-				"allo",
-				"allow_promotion"
-			],
-			[
-				"pre",
-				"prev_color"
-			],
-			[
-				"all",
-				"allow_promotion"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "transform.py",
+			"file": "process_pdf.py",
 			"settings":
 			{
-				"buffer_size": 4178,
+				"buffer_size": 4814,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "read_bacteria.py",
+			"contents": "# pdfinterp.py\nimport re\nimport logging\nfrom io import BytesIO\nfrom .cmapdb import CMapDB\nfrom .cmapdb import CMap\nfrom .psparser import PSTypeError\nfrom .psparser import PSEOF\nfrom .psparser import PSKeyword\nfrom .psparser import literal_name\nfrom .psparser import keyword_name\nfrom .psparser import PSStackParser\nfrom .psparser import LIT\nfrom .psparser import KWD\nfrom .settings import STRICT\nfrom .pdftypes import PDFException\nfrom .pdftypes import PDFStream\nfrom .pdftypes import PDFObjRef\nfrom .pdftypes import resolve1\nfrom .pdftypes import list_value\nfrom .pdftypes import dict_value\nfrom .pdftypes import stream_value\nfrom .pdffont import PDFFontError\nfrom .pdffont import PDFType1Font\nfrom .pdffont import PDFTrueTypeFont\nfrom .pdffont import PDFType3Font\nfrom .pdffont import PDFCIDFont\nfrom .pdfcolor import PDFColorSpace\nfrom .pdfcolor import PREDEFINED_COLORSPACE\nfrom .utils import choplist\nfrom .utils import mult_matrix\nfrom .utils import MATRIX_IDENTITY\n\nimport six # Python 2+3 compatibility\n\n##  Exceptions\n##\nclass PDFResourceError(PDFException):\n    pass\n\nclass PDFInterpreterError(PDFException):\n    pass\n\n##  Constants\n##\nLITERAL_PDF = LIT('PDF')\nLITERAL_TEXT = LIT('Text')\nLITERAL_FONT = LIT('Font')\nLITERAL_FORM = LIT('Form')\nLITERAL_IMAGE = LIT('Image')\n\n##  PDFTextState\n##\nclass PDFTextState(object):\n\n    def __init__(self):\n        self.font = None\n        self.fontsize = 0\n        self.charspace = 0\n        self.wordspace = 0\n        self.scaling = 100\n        self.leading = 0\n        self.render = 0\n        self.rise = 0\n        self.reset()\n        # self.matrix is set\n        # self.linematrix is set\n        return\n\n    def __repr__(self):\n        return ('<PDFTextState: font=%r, fontsize=%r, charspace=%r, wordspace=%r, '\n                ' scaling=%r, leading=%r, render=%r, rise=%r, '\n                ' matrix=%r, linematrix=%r>' %\n                (self.font, self.fontsize, self.charspace, self.wordspace,\n                 self.scaling, self.leading, self.render, self.rise,\n                 self.matrix, self.linematrix))\n\n    def copy(self):\n        obj = PDFTextState()\n        obj.font = self.font\n        obj.fontsize = self.fontsize\n        obj.charspace = self.charspace\n        obj.wordspace = self.wordspace\n        obj.scaling = self.scaling\n        obj.leading = self.leading\n        obj.render = self.render\n        obj.rise = self.rise\n        obj.matrix = self.matrix\n        obj.linematrix = self.linematrix\n        return obj\n\n    def reset(self):\n        self.matrix = MATRIX_IDENTITY\n        self.linematrix = (0, 0)\n        return\n\n\n##  PDFGraphicState\n##\nclass PDFGraphicState(object):\n\n    def __init__(self):\n        self.linewidth = 0\n        self.linecap = None\n        self.linejoin = None\n        self.miterlimit = None\n        self.dash = None\n        self.intent = None\n        self.flatness = None\n        return\n\n    def copy(self):\n        obj = PDFGraphicState()\n        obj.linewidth = self.linewidth\n        obj.linecap = self.linecap\n        obj.linejoin = self.linejoin\n        obj.miterlimit = self.miterlimit\n        obj.dash = self.dash\n        obj.intent = self.intent\n        obj.flatness = self.flatness\n        return obj\n\n    def __repr__(self):\n        return ('<PDFGraphicState: linewidth=%r, linecap=%r, linejoin=%r, '\n                ' miterlimit=%r, dash=%r, intent=%r, flatness=%r>' %\n                (self.linewidth, self.linecap, self.linejoin,\n                 self.miterlimit, self.dash, self.intent, self.flatness))\n\n\n##  Resource Manager\n##\nclass PDFResourceManager(object):\n\n    \"\"\"Repository of shared resources.\n\n    ResourceManager facilitates reuse of shared resources\n    such as fonts and images so that large objects are not\n    allocated multiple times.\n    \"\"\"\n\n    def __init__(self, caching=True):\n        self.caching = caching\n        self._cached_fonts = {}\n        return\n\n    def get_procset(self, procs):\n        for proc in procs:\n            if proc is LITERAL_PDF:\n                pass\n            elif proc is LITERAL_TEXT:\n                pass\n            else:\n                #raise PDFResourceError('ProcSet %r is not supported.' % proc)\n                pass\n        return\n\n    def get_cmap(self, cmapname, strict=False):\n        try:\n            return CMapDB.get_cmap(cmapname)\n        except CMapDB.CMapNotFound:\n            if strict:\n                raise\n            return CMap()\n\n    def get_font(self, objid, spec):\n        if objid and objid in self._cached_fonts:\n            font = self._cached_fonts[objid]\n        else:\n            logging.info('get_font: create: objid=%r, spec=%r', objid, spec)\n            if STRICT:\n                if spec['Type'] is not LITERAL_FONT:\n                    raise PDFFontError('Type is not /Font')\n            # Create a Font object.\n            if 'Subtype' in spec:\n                subtype = literal_name(spec['Subtype'])\n            else:\n                if STRICT:\n                    raise PDFFontError('Font Subtype is not specified.')\n                subtype = 'Type1'\n            if subtype in ('Type1', 'MMType1'):\n                # Type1 Font\n                font = PDFType1Font(self, spec)\n            elif subtype == 'TrueType':\n                # TrueType Font\n                font = PDFTrueTypeFont(self, spec)\n            elif subtype == 'Type3':\n                # Type3 Font\n                font = PDFType3Font(self, spec)\n            elif subtype in ('CIDFontType0', 'CIDFontType2'):\n                # CID Font\n                font = PDFCIDFont(self, spec)\n            elif subtype == 'Type0':\n                # Type0 Font\n                dfonts = list_value(spec['DescendantFonts'])\n                assert dfonts\n                subspec = dict_value(dfonts[0]).copy()\n                for k in ('Encoding', 'ToUnicode'):\n                    if k in spec:\n                        subspec[k] = resolve1(spec[k])\n                font = self.get_font(None, subspec)\n            else:\n                if STRICT:\n                    raise PDFFontError('Invalid Font spec: %r' % spec)\n                font = PDFType1Font(self, spec)  # this is so wrong!\n            if objid and self.caching:\n                self._cached_fonts[objid] = font\n        return font\n\n\n##  PDFContentParser\n##\nclass PDFContentParser(PSStackParser):\n\n    def __init__(self, streams):\n        self.streams = streams\n        self.istream = 0\n        PSStackParser.__init__(self, None)\n        return\n\n    def fillfp(self):\n        if not self.fp:\n            if self.istream < len(self.streams):\n                strm = stream_value(self.streams[self.istream])\n                self.istream += 1\n            else:\n                raise PSEOF('Unexpected EOF, file truncated?')\n            self.fp = BytesIO(strm.get_data())\n        return\n\n    def seek(self, pos):\n        self.fillfp()\n        PSStackParser.seek(self, pos)\n        return\n\n    def fillbuf(self):\n        if self.charpos < len(self.buf):\n            return\n        while 1:\n            self.fillfp()\n            self.bufpos = self.fp.tell()\n            self.buf = self.fp.read(self.BUFSIZ)\n            if self.buf:\n                break\n            self.fp = None\n        self.charpos = 0\n        return\n\n    def get_inline_data(self, pos, target=b'EI'):\n        self.seek(pos)\n        i = 0\n        data = b''\n        while i <= len(target):\n            self.fillbuf()\n            if i:\n                c = six.indexbytes(self.buf,self.charpos)\n                c=six.int2byte(c)\n                data += c\n                self.charpos += 1\n                if len(target) <= i and c.isspace():\n                    i += 1\n                elif i < len(target) and c == target[i]:\n                    i += 1\n                else:\n                    i = 0\n            else:\n                try:\n                    j = self.buf.index(target[0], self.charpos)\n                    #print 'found', (0, self.buf[j:j+10])\n                    data += self.buf[self.charpos:j+1]\n                    self.charpos = j+1\n                    i = 1\n                except ValueError:\n                    data += self.buf[self.charpos:]\n                    self.charpos = len(self.buf)\n        data = data[:-(len(target)+1)]  # strip the last part\n        data = re.sub(br'(\\x0d\\x0a|[\\x0d\\x0a])$', b'', data)\n        return (pos, data)\n\n    def flush(self):\n        self.add_results(*self.popall())\n        return\n\n    KEYWORD_BI = KWD(b'BI')\n    KEYWORD_ID = KWD(b'ID')\n    KEYWORD_EI = KWD(b'EI')\n\n    def do_keyword(self, pos, token):\n        if token is self.KEYWORD_BI:\n            # inline image within a content stream\n            self.start_type(pos, 'inline')\n        elif token is self.KEYWORD_ID:\n            try:\n                (_, objs) = self.end_type('inline')\n                if len(objs) % 2 != 0:\n                    raise PSTypeError('Invalid dictionary construct: %r' % objs)\n                d = dict((literal_name(k), v) for (k, v) in choplist(2, objs))\n                (pos, data) = self.get_inline_data(pos+len(b'ID '))\n                obj = PDFStream(d, data)\n                self.push((pos, obj))\n                self.push((pos, self.KEYWORD_EI))\n            except PSTypeError:\n                if STRICT:\n                    raise\n        else:\n            self.push((pos, token))\n        return\n\n\n##  Interpreter\n##\nclass PDFPageInterpreter(object):\n\n    def __init__(self, rsrcmgr, device):\n        self.rsrcmgr = rsrcmgr\n        self.device = device\n        return\n\n    def dup(self):\n        return self.__class__(self.rsrcmgr, self.device)\n\n    # init_resources(resources):\n    #   Prepare the fonts and XObjects listed in the Resource attribute.\n    def init_resources(self, resources):\n        self.resources = resources\n        self.fontmap = {}\n        self.xobjmap = {}\n        self.csmap = PREDEFINED_COLORSPACE.copy()\n        if not resources:\n            return\n\n        def get_colorspace(spec):\n            if isinstance(spec, list):\n                name = literal_name(spec[0])\n            else:\n                name = literal_name(spec)\n            if name == 'ICCBased' and isinstance(spec, list) and 2 <= len(spec):\n                return PDFColorSpace(name, stream_value(spec[1])['N'])\n            elif name == 'DeviceN' and isinstance(spec, list) and 2 <= len(spec):\n                return PDFColorSpace(name, len(list_value(spec[1])))\n            else:\n                return PREDEFINED_COLORSPACE.get(name)\n        for (k, v) in six.iteritems(dict_value(resources)):\n            logging.debug('Resource: %r: %r', k, v)\n            if k == 'Font':\n                for (fontid, spec) in six.iteritems(dict_value(v)):\n                    objid = None\n                    if isinstance(spec, PDFObjRef):\n                        objid = spec.objid\n                    spec = dict_value(spec)\n                    self.fontmap[fontid] = self.rsrcmgr.get_font(objid, spec)\n            elif k == 'ColorSpace':\n                for (csid, spec) in six.iteritems(dict_value(v)):\n                    self.csmap[csid] = get_colorspace(resolve1(spec))\n            elif k == 'ProcSet':\n                self.rsrcmgr.get_procset(list_value(v))\n            elif k == 'XObject':\n                for (xobjid, xobjstrm) in six.iteritems(dict_value(v)):\n                    self.xobjmap[xobjid] = xobjstrm\n        return\n\n    # init_state(ctm)\n    #   Initialize the text and graphic states for rendering a page.\n    def init_state(self, ctm):\n        # gstack: stack for graphical states.\n        self.gstack = []\n        self.ctm = ctm\n        self.device.set_ctm(self.ctm)\n        self.textstate = PDFTextState()\n        self.graphicstate = PDFGraphicState()\n        self.curpath = []\n        # argstack: stack for command arguments.\n        self.argstack = []\n        # set some global states.\n        self.scs = self.ncs = None\n        if self.csmap:\n            self.scs = self.ncs = six.next(six.itervalues(self.csmap))\n        return\n\n    def push(self, obj):\n        self.argstack.append(obj)\n        return\n\n    def pop(self, n):\n        if n == 0:\n            return []\n        x = self.argstack[-n:]\n        self.argstack = self.argstack[:-n]\n        return x\n\n    def get_current_state(self):\n        return (self.ctm, self.textstate.copy(), self.graphicstate.copy())\n\n    def set_current_state(self, state):\n        (self.ctm, self.textstate, self.graphicstate) = state\n        self.device.set_ctm(self.ctm)\n        return\n\n    # gsave\n    def do_q(self):\n        self.gstack.append(self.get_current_state())\n        return\n\n    # grestore\n    def do_Q(self):\n        if self.gstack:\n            self.set_current_state(self.gstack.pop())\n        return\n\n    # concat-matrix\n    def do_cm(self, a1, b1, c1, d1, e1, f1):\n        self.ctm = mult_matrix((a1, b1, c1, d1, e1, f1), self.ctm)\n        self.device.set_ctm(self.ctm)\n        return\n\n    # setlinewidth\n    def do_w(self, linewidth):\n        self.graphicstate.linewidth = linewidth\n        return\n\n    # setlinecap\n    def do_J(self, linecap):\n        self.graphicstate.linecap = linecap\n        return\n\n    # setlinejoin\n    def do_j(self, linejoin):\n        self.graphicstate.linejoin = linejoin\n        return\n\n    # setmiterlimit\n    def do_M(self, miterlimit):\n        self.graphicstate.miterlimit = miterlimit\n        return\n\n    # setdash\n    def do_d(self, dash, phase):\n        self.graphicstate.dash = (dash, phase)\n        return\n\n    # setintent\n    def do_ri(self, intent):\n        self.graphicstate.intent = intent\n        return\n\n    # setflatness\n    def do_i(self, flatness):\n        self.graphicstate.flatness = flatness\n        return\n\n    # load-gstate\n    def do_gs(self, name):\n        #XXX\n        return\n\n    # moveto\n    def do_m(self, x, y):\n        self.curpath.append(('m', x, y))\n        return\n\n    # lineto\n    def do_l(self, x, y):\n        self.curpath.append(('l', x, y))\n        return\n\n    # curveto\n    def do_c(self, x1, y1, x2, y2, x3, y3):\n        self.curpath.append(('c', x1, y1, x2, y2, x3, y3))\n        return\n\n    # urveto\n    def do_v(self, x2, y2, x3, y3):\n        self.curpath.append(('v', x2, y2, x3, y3))\n        return\n\n    # rveto\n    def do_y(self, x1, y1, x3, y3):\n        self.curpath.append(('y', x1, y1, x3, y3))\n        return\n\n    # closepath\n    def do_h(self):\n        self.curpath.append(('h',))\n        return\n\n    # rectangle\n    def do_re(self, x, y, w, h):\n        self.curpath.append(('m', x, y))\n        self.curpath.append(('l', x+w, y))\n        self.curpath.append(('l', x+w, y+h))\n        self.curpath.append(('l', x, y+h))\n        self.curpath.append(('h',))\n        return\n\n    # stroke\n    def do_S(self):\n        self.device.paint_path(self.graphicstate, True, False, False, self.curpath)\n        self.curpath = []\n        return\n\n    # close-and-stroke\n    def do_s(self):\n        self.do_h()\n        self.do_S()\n        return\n\n    # fill\n    def do_f(self):\n        self.device.paint_path(self.graphicstate, False, True, False, self.curpath)\n        self.curpath = []\n        return\n    # fill (obsolete)\n    do_F = do_f\n\n    # fill-even-odd\n    def do_f_a(self):\n        self.device.paint_path(self.graphicstate, False, True, True, self.curpath)\n        self.curpath = []\n        return\n\n    # fill-and-stroke\n    def do_B(self):\n        self.device.paint_path(self.graphicstate, True, True, False, self.curpath)\n        self.curpath = []\n        return\n\n    # fill-and-stroke-even-odd\n    def do_B_a(self):\n        self.device.paint_path(self.graphicstate, True, True, True, self.curpath)\n        self.curpath = []\n        return\n\n    # close-fill-and-stroke\n    def do_b(self):\n        self.do_h()\n        self.do_B()\n        return\n\n    # close-fill-and-stroke-even-odd\n    def do_b_a(self):\n        self.do_h()\n        self.do_B_a()\n        return\n\n    # close-only\n    def do_n(self):\n        self.curpath = []\n        return\n\n    # clip\n    def do_W(self):\n        return\n\n    # clip-even-odd\n    def do_W_a(self):\n        return\n\n    # setcolorspace-stroking\n    def do_CS(self, name):\n        try:\n            self.scs = self.csmap[literal_name(name)]\n        except KeyError:\n            if STRICT:\n                raise PDFInterpreterError('Undefined ColorSpace: %r' % name)\n        return\n\n    # setcolorspace-non-strokine\n    def do_cs(self, name):\n        try:\n            self.ncs = self.csmap[literal_name(name)]\n        except KeyError:\n            if STRICT:\n                raise PDFInterpreterError('Undefined ColorSpace: %r' % name)\n        return\n\n    # setgray-stroking\n    def do_G(self, gray):\n        #self.do_CS(LITERAL_DEVICE_GRAY)\n        return\n\n    # setgray-non-stroking\n    def do_g(self, gray):\n        #self.do_cs(LITERAL_DEVICE_GRAY)\n        return\n\n    # setrgb-stroking\n    def do_RG(self, r, g, b):\n        #self.do_CS(LITERAL_DEVICE_RGB)\n        return\n\n    # setrgb-non-stroking\n    def do_rg(self, r, g, b):\n        #self.do_cs(LITERAL_DEVICE_RGB)\n        return\n\n    # setcmyk-stroking\n    def do_K(self, c, m, y, k):\n        #self.do_CS(LITERAL_DEVICE_CMYK)\n        return\n\n    # setcmyk-non-stroking\n    def do_k(self, c, m, y, k):\n        #self.do_cs(LITERAL_DEVICE_CMYK)\n        return\n\n    # setcolor\n    def do_SCN(self):\n        if self.scs:\n            n = self.scs.ncomponents\n        else:\n            if STRICT:\n                raise PDFInterpreterError('No colorspace specified!')\n            n = 1\n        self.pop(n)\n        return\n\n    def do_scn(self):\n        if self.ncs:\n            n = self.ncs.ncomponents\n        else:\n            if STRICT:\n                raise PDFInterpreterError('No colorspace specified!')\n            n = 1\n        self.pop(n)\n        return\n\n    def do_SC(self):\n        self.do_SCN()\n        return\n\n    def do_sc(self):\n        self.do_scn()\n        return\n\n    # sharing-name\n    def do_sh(self, name):\n        return\n\n    # begin-text\n    def do_BT(self):\n        self.textstate.reset()\n        return\n\n    # end-text\n    def do_ET(self):\n        return\n\n    # begin-compat\n    def do_BX(self):\n        return\n\n    # end-compat\n    def do_EX(self):\n        return\n\n    # marked content operators\n    def do_MP(self, tag):\n        self.device.do_tag(tag)\n        return\n\n    def do_DP(self, tag, props):\n        self.device.do_tag(tag, props)\n        return\n\n    def do_BMC(self, tag):\n        self.device.begin_tag(tag)\n        return\n\n    def do_BDC(self, tag, props):\n        self.device.begin_tag(tag, props)\n        return\n\n    def do_EMC(self):\n        self.device.end_tag()\n        return\n\n    # setcharspace\n    def do_Tc(self, space):\n        self.textstate.charspace = space\n        return\n\n    # setwordspace\n    def do_Tw(self, space):\n        self.textstate.wordspace = space\n        return\n\n    # textscale\n    def do_Tz(self, scale):\n        self.textstate.scaling = scale\n        return\n\n    # setleading\n    def do_TL(self, leading):\n        self.textstate.leading = -leading\n        return\n\n    # selectfont\n    def do_Tf(self, fontid, fontsize):\n        try:\n            self.textstate.font = self.fontmap[literal_name(fontid)]\n        except KeyError:\n            if STRICT:\n                raise PDFInterpreterError('Undefined Font id: %r' % fontid)\n            self.textstate.font = self.rsrcmgr.get_font(None, {})\n        self.textstate.fontsize = fontsize\n        return\n\n    # setrendering\n    def do_Tr(self, render):\n        self.textstate.render = render\n        return\n\n    # settextrise\n    def do_Ts(self, rise):\n        self.textstate.rise = rise\n        return\n\n    # text-move\n    def do_Td(self, tx, ty):\n        (a, b, c, d, e, f) = self.textstate.matrix\n        self.textstate.matrix = (a, b, c, d, tx*a+ty*c+e, tx*b+ty*d+f)\n        self.textstate.linematrix = (0, 0)\n        #print >>sys.stderr, 'Td(%r,%r): %r' % (tx, ty, self.textstate)\n        return\n\n    # text-move\n    def do_TD(self, tx, ty):\n        (a, b, c, d, e, f) = self.textstate.matrix\n        self.textstate.matrix = (a, b, c, d, tx*a+ty*c+e, tx*b+ty*d+f)\n        self.textstate.leading = ty\n        self.textstate.linematrix = (0, 0)\n        #print >>sys.stderr, 'TD(%r,%r): %r' % (tx, ty, self.textstate)\n        return\n\n    # textmatrix\n    def do_Tm(self, a, b, c, d, e, f):\n        self.textstate.matrix = (a, b, c, d, e, f)\n        self.textstate.linematrix = (0, 0)\n        return\n\n    # nextline\n    def do_T_a(self):\n        (a, b, c, d, e, f) = self.textstate.matrix\n        self.textstate.matrix = (a, b, c, d, self.textstate.leading*c+e, self.textstate.leading*d+f)\n        self.textstate.linematrix = (0, 0)\n        return\n\n    # show-pos\n    def do_TJ(self, seq):\n        #print >>sys.stderr, 'TJ(%r): %r' % (seq, self.textstate)\n        if self.textstate.font is None:\n            if STRICT:\n                raise PDFInterpreterError('No font specified!')\n            return\n        self.device.render_string(self.textstate, seq)\n        return\n\n    # show\n    def do_Tj(self, s):\n        self.do_TJ([s])\n        return\n\n    # quote\n    def do__q(self, s):\n        self.do_T_a()\n        self.do_TJ([s])\n        return\n\n    # doublequote\n    def do__w(self, aw, ac, s):\n        self.do_Tw(aw)\n        self.do_Tc(ac)\n        self.do_TJ([s])\n        return\n\n    # inline image\n    def do_BI(self):  # never called\n        return\n\n    def do_ID(self):  # never called\n        return\n\n    def do_EI(self, obj):\n        if 'W' in obj and 'H' in obj:\n            iobjid = str(id(obj))\n            self.device.begin_figure(iobjid, (0, 0, 1, 1), MATRIX_IDENTITY)\n            self.device.render_image(iobjid, obj)\n            self.device.end_figure(iobjid)\n        return\n\n    # invoke an XObject\n    def do_Do(self, xobjid):\n        xobjid = literal_name(xobjid)\n        try:\n            xobj = stream_value(self.xobjmap[xobjid])\n        except KeyError:\n            if STRICT:\n                raise PDFInterpreterError('Undefined xobject id: %r' % xobjid)\n            return\n        logging.info('Processing xobj: %r', xobj)\n        subtype = xobj.get('Subtype')\n        if subtype is LITERAL_FORM and 'BBox' in xobj:\n            interpreter = self.dup()\n            bbox = list_value(xobj['BBox'])\n            matrix = list_value(xobj.get('Matrix', MATRIX_IDENTITY))\n            # According to PDF reference 1.7 section 4.9.1, XObjects in\n            # earlier PDFs (prior to v1.2) use the page's Resources entry\n            # instead of having their own Resources entry.\n            xobjres = xobj.get('Resources')\n            resources = dict_value(xobjres) if xobjres else self.resources.copy()\n            self.device.begin_figure(xobjid, bbox, matrix)\n            interpreter.render_contents(resources, [xobj], ctm=mult_matrix(matrix, self.ctm))\n            self.device.end_figure(xobjid)\n        elif subtype is LITERAL_IMAGE and 'Width' in xobj and 'Height' in xobj:\n            self.device.begin_figure(xobjid, (0, 0, 1, 1), MATRIX_IDENTITY)\n            self.device.render_image(xobjid, xobj)\n            self.device.end_figure(xobjid)\n        else:\n            # unsupported xobject type.\n            pass\n        return\n\n    def process_page(self, page):\n        logging.info('Processing page: %r', page)\n        (x0, y0, x1, y1) = page.mediabox\n        if page.rotate == 90:\n            ctm = (0, -1, 1, 0, -y0, x1)\n        elif page.rotate == 180:\n            ctm = (-1, 0, 0, -1, x1, y1)\n        elif page.rotate == 270:\n            ctm = (0, 1, -1, 0, y1, -x0)\n        else:\n            ctm = (1, 0, 0, 1, -x0, -y0)\n        self.device.begin_page(page, ctm)\n        self.render_contents(page.resources, page.contents, ctm=ctm)\n        self.device.end_page(page)\n        return\n\n    # render_contents(resources, streams, ctm)\n    #   Render the content streams.\n    #   This method may be called recursively.\n    def render_contents(self, resources, streams, ctm=MATRIX_IDENTITY):\n        logging.info('render_contents: resources=%r, streams=%r, ctm=%r',\n                     resources, streams, ctm)\n        self.init_resources(resources)\n        self.init_state(ctm)\n        self.execute(list_value(streams))\n        return\n\n    def execute(self, streams):\n        try:\n            parser = PDFContentParser(streams)\n        except PSEOF:\n            # empty page\n            return\n        while 1:\n            try:\n                (_, obj) = parser.nextobject()\n            except PSEOF:\n                break\n            if isinstance(obj, PSKeyword):\n                name = keyword_name(obj)\n                method = 'do_%s' % name.replace('*', '_a').replace('\"', '_w').replace(\"'\", '_q')\n                if hasattr(self, method):\n                    func = getattr(self, method)\n                    nargs = six.get_function_code(func).co_argcount-1\n                    if nargs:\n                        args = self.pop(nargs)\n                        logging.debug('exec: %s %r', name, args)\n                        if len(args) == nargs:\n                            func(*args)\n                    else:\n                        logging.debug('exec: %s', name)\n                        func()\n                else:\n                    if STRICT:\n                        raise PDFInterpreterError('Unknown operator: %r' % name)\n            else:\n                self.push(obj)\n        return\n",
+			"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfinterp.py",
+			"file_size": 25303,
+			"file_write_time": 131316808020000000,
 			"settings":
 			{
-				"buffer_size": 576,
+				"buffer_size": 25296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# pdf2txt.py\n\"\"\"\nConverts PDF text content (though not images containing text) to plain text, html, xml or \"tags\".\n\"\"\"\nimport sys\nimport logging\nimport six\nimport pdfminer.settings\npdfminer.settings.STRICT = False\nimport pdfminer.high_level\nimport pdfminer.layout\n\n\ndef extract_text(files=[], outfile='-',\n            _py2_no_more_posargs=None,  # Bloody Python2 needs a shim\n            no_laparams=False, all_texts=None, detect_vertical=None, # LAParams\n            word_margin=None, char_margin=None, line_margin=None, boxes_flow=None, # LAParams\n            output_type='text', codec='utf-8', strip_control=False,\n            maxpages=0, page_numbers=None, password=\"\", scale=1.0, rotation=0,\n            layoutmode='normal', output_dir=None, debug=False,\n            disable_caching=False, **other):\n    if _py2_no_more_posargs is not None:\n        raise ValueError(\"Too many positional arguments passed.\")\n    if not files:\n        raise ValueError(\"Must provide files to work upon!\")\n\n    # If any LAParams group arguments were passed, create an LAParams object and\n    # populate with given args. Otherwise, set it to None.\n    if not no_laparams:\n        laparams = pdfminer.layout.LAParams()\n        for param in (\"all_texts\", \"detect_vertical\", \"word_margin\", \"char_margin\", \"line_margin\", \"boxes_flow\"):\n            paramv = locals().get(param, None)\n            if paramv is not None:\n                setattr(laparams, param, paramv)\n    else:\n        laparams = None\n\n    imagewriter = None\n    if output_dir:\n        imagewriter = ImageWriter(output_dir)\n\n    if output_type == \"text\" and outfile != \"-\":\n        for override, alttype in (  (\".htm\", \"html\"),\n                                    (\".html\", \"html\"),\n                                    (\".xml\", \"xml\"),\n                                    (\".tag\", \"tag\") ):\n            if outfile.endswith(override):\n                output_type = alttype\n\n    if outfile == \"-\":\n        outfp = sys.stdout\n        if outfp.encoding is not None:\n            codec = 'utf-8'\n    else:\n        outfp = open(outfile, \"wb\")\n\n\n    for fname in files:\n        with open(fname, \"rb\") as fp:\n            pdfminer.high_level.extract_text_to_fp(fp, **locals())\n    return outfp\n\n# main\ndef main(args=None):\n    import argparse\n    P = argparse.ArgumentParser(description=__doc__)\n    P.add_argument(\"files\", type=str, default=None, nargs=\"+\", help=\"Files to process.\")\n    P.add_argument(\"-d\", \"--debug\", default=False, action=\"store_true\", help=\"Debug output.\")\n    P.add_argument(\"-p\", \"--pagenos\", type=str, help=\"Comma-separated list of page numbers to parse. Included for legacy applications, use -P/--page-numbers for more idiomatic argument entry.\")\n    P.add_argument(\"--page-numbers\", type=int, default=None, nargs=\"+\", help=\"Alternative to --pagenos with space-separated numbers; supercedes --pagenos where it is used.\")\n    P.add_argument(\"-m\", \"--maxpages\", type=int, default=0, help = \"Maximum pages to parse\")\n    P.add_argument(\"-P\", \"--password\", type=str, default=\"\", help = \"Decryption password for PDF\")\n    P.add_argument(\"-o\", \"--outfile\", type=str, default=\"-\", help=\"Output file (default/'-' is stdout)\")\n    P.add_argument(\"-t\", \"--output_type\", type=str, default=\"text\", help = \"Output type: text|html|xml|tag (default is text)\")\n    P.add_argument(\"-c\", \"--codec\", type=str, default=\"utf-8\", help = \"Text encoding\")\n    P.add_argument(\"-s\", \"--scale\", type=float, default=1.0, help = \"Scale\")\n    P.add_argument(\"-A\", \"--all-texts\", default=None, action=\"store_true\", help=\"LAParams all texts\")\n    P.add_argument(\"-V\", \"--detect-vertical\", default=None, action=\"store_true\", help=\"LAParams detect vertical\")\n    P.add_argument(\"-W\", \"--word-margin\", type=float, default=None, help = \"LAParams word margin\")\n    P.add_argument(\"-M\", \"--char-margin\", type=float, default=None, help = \"LAParams char margin\")\n    P.add_argument(\"-L\", \"--line-margin\", type=float, default=None, help = \"LAParams line margin\")\n    P.add_argument(\"-F\", \"--boxes-flow\", type=float, default=None, help = \"LAParams boxes flow\")\n    P.add_argument(\"-Y\", \"--layoutmode\", default=\"normal\", type=str, help=\"HTML Layout Mode\")\n    P.add_argument(\"-n\", \"--no-laparams\", default=False, action=\"store_true\", help = \"Pass None as LAParams\")\n    P.add_argument(\"-R\", \"--rotation\", default=0, type=int, help = \"Rotation\")\n    P.add_argument(\"-O\", \"--output-dir\", default=None, help=\"Output directory for images\")\n    P.add_argument(\"-C\", \"--disable-caching\", default=False, action=\"store_true\", help=\"Disable caching\")\n    P.add_argument(\"-S\", \"--strip-control\", default=False, action=\"store_true\", help=\"Strip control in XML mode\")\n    A = P.parse_args(args=args)\n\n    if A.page_numbers:\n        A.page_numbers = set([x-1 for x in A.page_numbers])\n    if A.pagenos:\n        A.page_numbers = set([int(x)-1 for x in A.pagenos.split(\",\")])\n\n    imagewriter = None\n    if A.output_dir:\n        imagewriter = ImageWriter(A.output_dir)\n\n    if six.PY2 and sys.stdin.encoding:\n        A.password = A.password.decode(sys.stdin.encoding)\n\n    if A.output_type == \"text\" and A.outfile != \"-\":\n        for override, alttype in (  (\".htm\",  \"html\"),\n                                    (\".html\", \"html\"),\n                                    (\".xml\",  \"xml\" ),\n                                    (\".tag\",  \"tag\" ) ):\n            if A.outfile.endswith(override):\n                A.output_type = alttype\n\n    if A.outfile == \"-\":\n        outfp = sys.stdout\n        if outfp.encoding is not None:\n            # Why ignore outfp.encoding? :-/ stupid cathal?\n            A.codec = 'utf-8'\n    else:\n        outfp = open(A.outfile, \"wb\")\n\n    ## Test Code\n    outfp = extract_text(**vars(A))\n    outfp.close()\n    return 0\n\n\nif __name__ == '__main__': sys.exit(main())\n",
+			"file": "charmander/bin/pdf2txt.py",
+			"file_size": 5844,
+			"file_write_time": 131316808020000000,
+			"settings":
+			{
+				"buffer_size": 5794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# pdfdocument.py\nimport re\nimport struct\nimport logging\n\nimport six # Python 2+3 compatibility\ntry:\n    import hashlib as md5\nexcept ImportError:\n    import md5\ntry:\n    from Crypto.Cipher import ARC4\n    from Crypto.Cipher import AES\n    from Crypto.Hash import SHA256\nexcept ImportError:\n    AES = SHA256 = None\n    from . import arcfour as ARC4\nfrom .psparser import PSEOF\nfrom .psparser import literal_name\nfrom .psparser import LIT\nfrom .psparser import KWD\nfrom .settings import STRICT\nfrom .pdftypes import PDFException\nfrom .pdftypes import PDFTypeError\nfrom .pdftypes import PDFStream\nfrom .pdftypes import PDFObjectNotFound\nfrom .pdftypes import decipher_all\nfrom .pdftypes import int_value\nfrom .pdftypes import str_value\nfrom .pdftypes import list_value\nfrom .pdftypes import dict_value\nfrom .pdftypes import stream_value\nfrom .pdfparser import PDFSyntaxError\nfrom .pdfparser import PDFStreamParser\nfrom .utils import choplist\nfrom .utils import nunpack\nfrom .utils import decode_text\n\n\n##  Exceptions\n##\nclass PDFNoValidXRef(PDFSyntaxError):\n    pass\n\nclass PDFNoOutlines(PDFException):\n    pass\n\nclass PDFDestinationNotFound(PDFException):\n    pass\n\nclass PDFEncryptionError(PDFException):\n    pass\n\nclass PDFPasswordIncorrect(PDFEncryptionError):\n    pass\n\nclass PDFTextExtractionNotAllowed(PDFEncryptionError):\n    pass\n\n# some predefined literals and keywords.\nLITERAL_OBJSTM = LIT('ObjStm')\nLITERAL_XREF = LIT('XRef')\nLITERAL_CATALOG = LIT('Catalog')\n\n\n##  XRefs\n##\nclass PDFBaseXRef(object):\n\n    def get_trailer(self):\n        raise NotImplementedError\n\n    def get_objids(self):\n        return []\n\n    # Must return\n    #     (strmid, index, genno)\n    #  or (None, pos, genno)\n    def get_pos(self, objid):\n        raise KeyError(objid)\n\n\n##  PDFXRef\n##\nclass PDFXRef(PDFBaseXRef):\n\n    def __init__(self):\n        self.offsets = {}\n        self.trailer = {}\n        return\n\n    def __repr__(self):\n        return '<PDFXRef: offsets=%r>' % (self.offsets.keys())\n\n    def load(self, parser):\n        while True:\n            try:\n                (pos, line) = parser.nextline()\n                if not line.strip():\n                    continue\n            except PSEOF:\n                raise PDFNoValidXRef('Unexpected EOF - file corrupted?')\n            if not line:\n                raise PDFNoValidXRef('Premature eof: %r' % parser)\n            if line.startswith(b'trailer'):\n                parser.seek(pos)\n                break\n            f = line.strip().split(b' ')\n            if len(f) != 2:\n                raise PDFNoValidXRef('Trailer not found: %r: line=%r' % (parser, line))\n            try:\n                if six.PY2:\n                    (start, nobjs) = map(long, f)\n                else:\n                    (start, nobjs) = map(int, f)\n            except ValueError:\n                raise PDFNoValidXRef('Invalid line: %r: line=%r' % (parser, line))\n            for objid in range(start, start+nobjs):\n                try:\n                    (_, line) = parser.nextline()\n                except PSEOF:\n                    raise PDFNoValidXRef('Unexpected EOF - file corrupted?')\n                f = line.strip().split(b' ')\n                if len(f) != 3:\n                    raise PDFNoValidXRef('Invalid XRef format: %r, line=%r' % (parser, line))\n                (pos, genno, use) = f\n                if use != b'n':\n                    continue\n                self.offsets[objid] = (None, long(pos) if six.PY2 else int(pos), int(genno))\n        logging.info('xref objects: %r', self.offsets)\n        self.load_trailer(parser)\n        return\n\n    def load_trailer(self, parser):\n        try:\n            (_, kwd) = parser.nexttoken()\n            assert kwd is KWD(b'trailer')\n            (_, dic) = parser.nextobject()\n        except PSEOF:\n            x = parser.pop(1)\n            if not x:\n                raise PDFNoValidXRef('Unexpected EOF - file corrupted')\n            (_, dic) = x[0]\n        self.trailer.update(dict_value(dic))\n        logging.debug('trailer=%r', self.trailer)\n        return\n\n    def get_trailer(self):\n        return self.trailer\n\n    def get_objids(self):\n        return six.iterkeys(self.offsets)\n\n    def get_pos(self, objid):\n        try:\n            return self.offsets[objid]\n        except KeyError:\n            raise\n\n\n##  PDFXRefFallback\n##\nclass PDFXRefFallback(PDFXRef):\n\n    def __repr__(self):\n        return '<PDFXRefFallback: offsets=%r>' % (self.offsets.keys())\n\n    PDFOBJ_CUE = re.compile(r'^(\\d+)\\s+(\\d+)\\s+obj\\b')\n\n    def load(self, parser):\n        parser.seek(0)\n        while 1:\n            try:\n                (pos, line) = parser.nextline()\n            except PSEOF:\n                break\n            if line.startswith(b'trailer'):\n                parser.seek(pos)\n                self.load_trailer(parser)\n                logging.info('trailer: %r', self.trailer)\n                break\n            if six.PY3:\n                line=line.decode('latin-1') #default pdf encoding\n            m = self.PDFOBJ_CUE.match(line)\n            if not m:\n                continue\n            (objid, genno) = m.groups()\n            objid = int(objid)\n            genno = int(genno)\n            self.offsets[objid] = (None, pos, genno)\n            # expand ObjStm.\n            parser.seek(pos)\n            (_, obj) = parser.nextobject()\n            if isinstance(obj, PDFStream) and obj.get('Type') is LITERAL_OBJSTM:\n                stream = stream_value(obj)\n                try:\n                    n = stream['N']\n                except KeyError:\n                    if STRICT:\n                        raise PDFSyntaxError('N is not defined: %r' % stream)\n                    n = 0\n                parser1 = PDFStreamParser(stream.get_data())\n                objs = []\n                try:\n                    while 1:\n                        (_, obj) = parser1.nextobject()\n                        objs.append(obj)\n                except PSEOF:\n                    pass\n                n = min(n, len(objs)//2)\n                for index in range(n):\n                    objid1 = objs[index*2]\n                    self.offsets[objid1] = (objid, index, 0)\n        return\n\n\n##  PDFXRefStream\n##\nclass PDFXRefStream(PDFBaseXRef):\n\n    def __init__(self):\n        self.data = None\n        self.entlen = None\n        self.fl1 = self.fl2 = self.fl3 = None\n        self.ranges = []\n        return\n\n    def __repr__(self):\n        return '<PDFXRefStream: ranges=%r>' % (self.ranges)\n\n    def load(self, parser):\n        (_, objid) = parser.nexttoken()  # ignored\n        (_, genno) = parser.nexttoken()  # ignored\n        (_, kwd) = parser.nexttoken()\n        (_, stream) = parser.nextobject()\n        if not isinstance(stream, PDFStream) or stream['Type'] is not LITERAL_XREF:\n            raise PDFNoValidXRef('Invalid PDF stream spec.')\n        size = stream['Size']\n        index_array = stream.get('Index', (0, size))\n        if len(index_array) % 2 != 0:\n            raise PDFSyntaxError('Invalid index number')\n        self.ranges.extend(choplist(2, index_array))\n        (self.fl1, self.fl2, self.fl3) = stream['W']\n        self.data = stream.get_data()\n        self.entlen = self.fl1+self.fl2+self.fl3\n        self.trailer = stream.attrs\n        logging.info('xref stream: objid=%s, fields=%d,%d,%d',\n                     ', '.join(map(repr, self.ranges)),\n                      self.fl1, self.fl2, self.fl3)\n        return\n\n    def get_trailer(self):\n        return self.trailer\n\n    def get_objids(self):\n        for (start, nobjs) in self.ranges:\n            for i in range(nobjs):\n                offset = self.entlen * i\n                ent = self.data[offset:offset+self.entlen]\n                f1 = nunpack(ent[:self.fl1], 1)\n                if f1 == 1 or f1 == 2:\n                    yield start+i\n        return\n\n    def get_pos(self, objid):\n        index = 0\n        for (start, nobjs) in self.ranges:\n            if start <= objid and objid < start+nobjs:\n                index += objid - start\n                break\n            else:\n                index += nobjs\n        else:\n            raise KeyError(objid)\n        offset = self.entlen * index\n        ent = self.data[offset:offset+self.entlen]\n        f1 = nunpack(ent[:self.fl1], 1)\n        f2 = nunpack(ent[self.fl1:self.fl1+self.fl2])\n        f3 = nunpack(ent[self.fl1+self.fl2:])\n        if f1 == 1:\n            return (None, f2, f3)\n        elif f1 == 2:\n            return (f2, f3, 0)\n        else:\n            # this is a free object\n            raise KeyError(objid)\n\n\n##  PDFSecurityHandler\n##\nclass PDFStandardSecurityHandler(object):\n\n    PASSWORD_PADDING = (b'(\\xbfN^Nu\\x8aAd\\x00NV\\xff\\xfa\\x01\\x08'\n                        b'..\\x00\\xb6\\xd0h>\\x80/\\x0c\\xa9\\xfedSiz')\n    supported_revisions = (2, 3)\n\n    def __init__(self, docid, param, password=''):\n        self.docid = docid\n        self.param = param\n        self.password = password\n        self.init()\n        return\n\n    def init(self):\n        self.init_params()\n        if self.r not in self.supported_revisions:\n            raise PDFEncryptionError('Unsupported revision: param=%r' % self.param)\n        self.init_key()\n        return\n\n    def init_params(self):\n        self.v = int_value(self.param.get('V', 0))\n        self.r = int_value(self.param['R'])\n        self.p = int_value(self.param['P'])\n        self.o = str_value(self.param['O'])\n        self.u = str_value(self.param['U'])\n        self.length = int_value(self.param.get('Length', 40))\n        return\n\n    def init_key(self):\n        self.key = self.authenticate(self.password)\n        if self.key is None:\n            raise PDFPasswordIncorrect\n        return\n\n    def is_printable(self):\n        return bool(self.p & 4)\n\n    def is_modifiable(self):\n        return bool(self.p & 8)\n\n    def is_extractable(self):\n        return bool(self.p & 16)\n\n    def compute_u(self, key):\n        if self.r == 2:\n            # Algorithm 3.4\n            return ARC4.new(key).encrypt(self.PASSWORD_PADDING)  # 2\n        else:\n            # Algorithm 3.5\n            hash = md5.md5(self.PASSWORD_PADDING)  # 2\n            hash.update(self.docid[0])  # 3\n            result = ARC4.new(key).encrypt(hash.digest())  # 4\n            for i in range(1, 20):  # 5\n                k = b''.join(six.int2byte(c ^ i) for c in six.iterbytes(key))\n                result = ARC4.new(k).encrypt(result)\n            result += result  # 6\n            return result\n\n    def compute_encryption_key(self, password):\n        # Algorithm 3.2\n        password = (password + self.PASSWORD_PADDING)[:32]  # 1\n        hash = md5.md5(password)  # 2\n        hash.update(self.o)  # 3\n        hash.update(struct.pack('<l', self.p))  # 4\n        hash.update(self.docid[0])  # 5\n        if self.r >= 4:\n            if not self.encrypt_metadata:\n                hash.update(b'\\xff\\xff\\xff\\xff')\n        result = hash.digest()\n        n = 5\n        if self.r >= 3:\n            n = self.length // 8\n            for _ in range(50):\n                result = md5.md5(result[:n]).digest()\n        return result[:n]\n\n    def authenticate(self, password):\n        password = password.encode(\"latin1\")\n        key = self.authenticate_user_password(password)\n        if key is None:\n            key = self.authenticate_owner_password(password)\n        return key\n\n    def authenticate_user_password(self, password):\n        key = self.compute_encryption_key(password)\n        if self.verify_encryption_key(key):\n            return key\n        else:\n            return None\n\n    def verify_encryption_key(self, key):\n        # Algorithm 3.6\n        u = self.compute_u(key)\n        if self.r == 2:\n            return u == self.u\n        return u[:16] == self.u[:16]\n\n    def authenticate_owner_password(self, password):\n        # Algorithm 3.7\n        password = (password + self.PASSWORD_PADDING)[:32]\n        hash = md5.md5(password)\n        if self.r >= 3:\n            for _ in range(50):\n                hash = md5.md5(hash.digest())\n        n = 5\n        if self.r >= 3:\n            n = self.length // 8\n        key = hash.digest()[:n]\n        if self.r == 2:\n            user_password = ARC4.new(key).decrypt(self.o)\n        else:\n            user_password = self.o\n            for i in range(19, -1, -1):\n                k = b''.join(six.int2byte(c ^ i) for c in six.iterbytes(key))\n                user_password = ARC4.new(k).decrypt(user_password)\n        return self.authenticate_user_password(user_password)\n\n    def decrypt(self, objid, genno, data, attrs=None):\n        return self.decrypt_rc4(objid, genno, data)\n\n    def decrypt_rc4(self, objid, genno, data):\n        key = self.key + struct.pack('<L', objid)[:3] + struct.pack('<L', genno)[:2]\n        hash = md5.md5(key)\n        key = hash.digest()[:min(len(key), 16)]\n        return ARC4.new(key).decrypt(data)\n\n\nclass PDFStandardSecurityHandlerV4(PDFStandardSecurityHandler):\n\n    supported_revisions = (4,)\n\n    def init_params(self):\n        super(PDFStandardSecurityHandlerV4, self).init_params()\n        self.length = 128\n        self.cf = dict_value(self.param.get('CF'))\n        self.stmf = literal_name(self.param['StmF'])\n        self.strf = literal_name(self.param['StrF'])\n        self.encrypt_metadata = bool(self.param.get('EncryptMetadata', True))\n        if self.stmf != self.strf:\n            raise PDFEncryptionError('Unsupported crypt filter: param=%r' % self.param)\n        self.cfm = {}\n        for k, v in self.cf.items():\n            f = self.get_cfm(literal_name(v['CFM']))\n            if f is None:\n                raise PDFEncryptionError('Unknown crypt filter method: param=%r' % self.param)\n            self.cfm[k] = f\n        self.cfm['Identity'] = self.decrypt_identity\n        if self.strf not in self.cfm:\n            raise PDFEncryptionError('Undefined crypt filter: param=%r' % self.param)\n        return\n\n    def get_cfm(self, name):\n        if name == 'V2':\n            return self.decrypt_rc4\n        elif name == 'AESV2':\n            return self.decrypt_aes128\n        else:\n            return None\n\n    def decrypt(self, objid, genno, data, attrs=None, name=None):\n        if not self.encrypt_metadata and attrs is not None:\n            t = attrs.get('Type')\n            if t is not None and literal_name(t) == 'Metadata':\n                return data\n        if name is None:\n            name = self.strf\n        return self.cfm[name](objid, genno, data)\n\n    def decrypt_identity(self, objid, genno, data):\n        return data\n\n    def decrypt_aes128(self, objid, genno, data):\n        key = self.key + struct.pack('<L', objid)[:3] + struct.pack('<L', genno)[:2] + b'sAlT'\n        hash = md5.md5(key)\n        key = hash.digest()[:min(len(key), 16)]\n        return AES.new(key, mode=AES.MODE_CBC, IV=data[:16]).decrypt(data[16:])\n\n\nclass PDFStandardSecurityHandlerV5(PDFStandardSecurityHandlerV4):\n\n    supported_revisions = (5,)\n\n    def init_params(self):\n        super(PDFStandardSecurityHandlerV5, self).init_params()\n        self.length = 256\n        self.oe = str_value(self.param['OE'])\n        self.ue = str_value(self.param['UE'])\n        self.o_hash = self.o[:32]\n        self.o_validation_salt = self.o[32:40]\n        self.o_key_salt = self.o[40:]\n        self.u_hash = self.u[:32]\n        self.u_validation_salt = self.u[32:40]\n        self.u_key_salt = self.u[40:]\n        return\n\n    def get_cfm(self, name):\n        if name == 'AESV3':\n            return self.decrypt_aes256\n        else:\n            return None\n\n    def authenticate(self, password):\n        password = password.encode('utf-8')[:127]\n        hash = SHA256.new(password)\n        hash.update(self.o_validation_salt)\n        hash.update(self.u)\n        if hash.digest() == self.o_hash:\n            hash = SHA256.new(password)\n            hash.update(self.o_key_salt)\n            hash.update(self.u)\n            return AES.new(hash.digest(), mode=AES.MODE_CBC, IV=b'\\x00' * 16).decrypt(self.oe)\n        hash = SHA256.new(password)\n        hash.update(self.u_validation_salt)\n        if hash.digest() == self.u_hash:\n            hash = SHA256.new(password)\n            hash.update(self.u_key_salt)\n            return AES.new(hash.digest(), mode=AES.MODE_CBC, IV=b'\\x00' * 16).decrypt(self.ue)\n        return None\n\n    def decrypt_aes256(self, objid, genno, data):\n        return AES.new(self.key, mode=AES.MODE_CBC, IV=data[:16]).decrypt(data[16:])\n\n\n##  PDFDocument\n##\nclass PDFDocument(object):\n\n    \"\"\"PDFDocument object represents a PDF document.\n\n    Since a PDF file can be very big, normally it is not loaded at\n    once. So PDF document has to cooperate with a PDF parser in order to\n    dynamically import the data as processing goes.\n\n    Typical usage:\n      doc = PDFDocument(parser, password)\n      obj = doc.getobj(objid)\n\n    \"\"\"\n\n    security_handler_registry = {\n        1: PDFStandardSecurityHandler,\n        2: PDFStandardSecurityHandler,\n    }\n    if AES is not None:\n        security_handler_registry[4] = PDFStandardSecurityHandlerV4\n        if SHA256 is not None:\n            security_handler_registry[5] = PDFStandardSecurityHandlerV5\n\n    def __init__(self, parser, password='', caching=True, fallback=True):\n        \"Set the document to use a given PDFParser object.\"\n        self.caching = caching\n        self.xrefs = []\n        self.info = []\n        self.catalog = None\n        self.encryption = None\n        self.decipher = None\n        self._parser = None\n        self._cached_objs = {}\n        self._parsed_objs = {}\n        self._parser = parser\n        self._parser.set_document(self)\n        self.is_printable = self.is_modifiable = self.is_extractable = True\n        # Retrieve the information of each header that was appended\n        # (maybe multiple times) at the end of the document.\n        try:\n            pos = self.find_xref(parser)\n            self.read_xref_from(parser, pos, self.xrefs)\n        except PDFNoValidXRef:\n            pass # fallback = True\n        if fallback:\n            parser.fallback = True\n            xref = PDFXRefFallback()\n            xref.load(parser)\n            self.xrefs.append(xref)\n        for xref in self.xrefs:\n            trailer = xref.get_trailer()\n            if not trailer:\n                continue\n            # If there's an encryption info, remember it.\n            if 'Encrypt' in trailer:\n                #assert not self.encryption\n                self.encryption = (list_value(trailer['ID']),\n                                   dict_value(trailer['Encrypt']))\n                self._initialize_password(password)\n            if 'Info' in trailer:\n                self.info.append(dict_value(trailer['Info']))\n            if 'Root' in trailer:\n                # Every PDF file must have exactly one /Root dictionary.\n                self.catalog = dict_value(trailer['Root'])\n                break\n        else:\n            raise PDFSyntaxError('No /Root object! - Is this really a PDF?')\n        if self.catalog.get('Type') is not LITERAL_CATALOG:\n            if STRICT:\n                raise PDFSyntaxError('Catalog not found!')\n        return\n\n    # _initialize_password(password=b'')\n    #   Perform the initialization with a given password.\n    def _initialize_password(self, password=''):\n        (docid, param) = self.encryption\n        if literal_name(param.get('Filter')) != 'Standard':\n            raise PDFEncryptionError('Unknown filter: param=%r' % param)\n        v = int_value(param.get('V', 0))\n        factory = self.security_handler_registry.get(v)\n        if factory is None:\n            raise PDFEncryptionError('Unknown algorithm: param=%r' % param)\n        handler = factory(docid, param, password)\n        self.decipher = handler.decrypt\n        self.is_printable = handler.is_printable()\n        self.is_modifiable = handler.is_modifiable()\n        self.is_extractable = handler.is_extractable()\n        self._parser.fallback = False # need to read streams with exact length\n        return\n\n    def _getobj_objstm(self, stream, index, objid):\n        if stream.objid in self._parsed_objs:\n            (objs, n) = self._parsed_objs[stream.objid]\n        else:\n            (objs, n) = self._get_objects(stream)\n            if self.caching:\n                self._parsed_objs[stream.objid] = (objs, n)\n        i = n*2+index\n        try:\n            obj = objs[i]\n        except IndexError:\n            raise PDFSyntaxError('index too big: %r' % index)\n        return obj\n\n    def _get_objects(self, stream):\n        if stream.get('Type') is not LITERAL_OBJSTM:\n            if STRICT:\n                raise PDFSyntaxError('Not a stream object: %r' % stream)\n        try:\n            n = stream['N']\n        except KeyError:\n            if STRICT:\n                raise PDFSyntaxError('N is not defined: %r' % stream)\n            n = 0\n        parser = PDFStreamParser(stream.get_data())\n        parser.set_document(self)\n        objs = []\n        try:\n            while 1:\n                (_, obj) = parser.nextobject()\n                objs.append(obj)\n        except PSEOF:\n            pass\n        return (objs, n)\n\n    def _getobj_parse(self, pos, objid):\n        self._parser.seek(pos)\n        (_, objid1) = self._parser.nexttoken()  # objid\n        if objid1 != objid:\n            raise PDFSyntaxError('objid mismatch: %r=%r' % (objid1, objid))\n        (_, genno) = self._parser.nexttoken()  # genno\n        (_, kwd) = self._parser.nexttoken()\n        if kwd != KWD(b'obj'):\n            raise PDFSyntaxError('Invalid object spec: offset=%r' % pos)\n        (_, obj) = self._parser.nextobject()\n        return obj\n\n    # can raise PDFObjectNotFound\n    def getobj(self, objid):\n        assert objid != 0\n        if not self.xrefs:\n            raise PDFException('PDFDocument is not initialized')\n        logging.debug('getobj: objid=%r', objid)\n        if objid in self._cached_objs:\n            (obj, genno) = self._cached_objs[objid]\n        else:\n            for xref in self.xrefs:\n                try:\n                    (strmid, index, genno) = xref.get_pos(objid)\n                except KeyError:\n                    continue\n                try:\n                    if strmid is not None:\n                        stream = stream_value(self.getobj(strmid))\n                        obj = self._getobj_objstm(stream, index, objid)\n                    else:\n                        obj = self._getobj_parse(index, objid)\n                        if self.decipher:\n                            obj = decipher_all(self.decipher, objid, genno, obj)\n\n                    if isinstance(obj, PDFStream):\n                        obj.set_objid(objid, genno)\n                    break\n                except (PSEOF, PDFSyntaxError):\n                    continue\n            else:\n                raise PDFObjectNotFound(objid)\n            logging.debug('register: objid=%r: %r', objid, obj)\n            if self.caching:\n                self._cached_objs[objid] = (obj, genno)\n        return obj\n\n    def get_outlines(self):\n        if 'Outlines' not in self.catalog:\n            raise PDFNoOutlines\n\n        def search(entry, level):\n            entry = dict_value(entry)\n            if 'Title' in entry:\n                if 'A' in entry or 'Dest' in entry:\n                    title = decode_text(str_value(entry['Title']))\n                    dest = entry.get('Dest')\n                    action = entry.get('A')\n                    se = entry.get('SE')\n                    yield (level, title, dest, action, se)\n            if 'First' in entry and 'Last' in entry:\n                for x in search(entry['First'], level+1):\n                    yield x\n            if 'Next' in entry:\n                for x in search(entry['Next'], level):\n                    yield x\n            return\n        return search(self.catalog['Outlines'], 0)\n\n    def lookup_name(self, cat, key):\n        try:\n            names = dict_value(self.catalog['Names'])\n        except (PDFTypeError, KeyError):\n            raise KeyError((cat, key))\n        # may raise KeyError\n        d0 = dict_value(names[cat])\n\n        def lookup(d):\n            if 'Limits' in d:\n                (k1, k2) = list_value(d['Limits'])\n                if key < k1 or k2 < key:\n                    return None\n            if 'Names' in d:\n                objs = list_value(d['Names'])\n                names = dict(choplist(2, objs))\n                return names[key]\n            if 'Kids' in d:\n                for c in list_value(d['Kids']):\n                    v = lookup(dict_value(c))\n                    if v:\n                        return v\n            raise KeyError((cat, key))\n        return lookup(d0)\n\n    def get_dest(self, name):\n        try:\n            # PDF-1.2 or later\n            obj = self.lookup_name('Dests', name)\n        except KeyError:\n            # PDF-1.1 or prior\n            if 'Dests' not in self.catalog:\n                raise PDFDestinationNotFound(name)\n            d0 = dict_value(self.catalog['Dests'])\n            if name not in d0:\n                raise PDFDestinationNotFound(name)\n            obj = d0[name]\n        return obj\n\n    # find_xref\n    def find_xref(self, parser):\n        \"\"\"Internal function used to locate the first XRef.\"\"\"\n        # search the last xref table by scanning the file backwards.\n        prev = None\n        for line in parser.revreadlines():\n            line = line.strip()\n            logging.debug('find_xref: %r', line)\n            if line == b'startxref':\n                break\n            if line:\n                prev = line\n        else:\n            raise PDFNoValidXRef('Unexpected EOF')\n        logging.info('xref found: pos=%r', prev)\n        return long(prev) if six.PY2 else int(prev)\n\n    # read xref table\n    def read_xref_from(self, parser, start, xrefs):\n        \"\"\"Reads XRefs from the given location.\"\"\"\n        parser.seek(start)\n        parser.reset()\n        try:\n            (pos, token) = parser.nexttoken()\n        except PSEOF:\n            raise PDFNoValidXRef('Unexpected EOF')\n        logging.info('read_xref_from: start=%d, token=%r', start, token)\n        if isinstance(token, int):\n            # XRefStream: PDF-1.5\n            parser.seek(pos)\n            parser.reset()\n            xref = PDFXRefStream()\n            xref.load(parser)\n        else:\n            if token is parser.KEYWORD_XREF:\n                parser.nextline()\n            xref = PDFXRef()\n            xref.load(parser)\n        xrefs.append(xref)\n        trailer = xref.get_trailer()\n        logging.info('trailer: %r', trailer)\n        if 'XRefStm' in trailer:\n            pos = int_value(trailer['XRefStm'])\n            self.read_xref_from(parser, pos, xrefs)\n        if 'Prev' in trailer:\n            # find previous xref\n            pos = int_value(trailer['Prev'])\n            self.read_xref_from(parser, pos, xrefs)\n        return\n",
+			"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfdocument.py",
+			"file_size": 26804,
+			"file_write_time": 131316808020000000,
+			"settings":
+			{
+				"buffer_size": 26799,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "charmander/lib/python3.5/site-packages/pdfminer/image.py",
+			"settings":
+			{
+				"buffer_size": 4060,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "PythonLearning.sublime-project",
+			"contents": "# converter.py\n# -*- coding: utf-8 -*-\nimport logging\nimport re\nfrom .pdfdevice import PDFTextDevice\nfrom .pdffont import PDFUnicodeNotDefined\nfrom .layout import LTContainer\nfrom .layout import LTPage\nfrom .layout import LTText\nfrom .layout import LTLine\nfrom .layout import LTRect\nfrom .layout import LTCurve\nfrom .layout import LTFigure\nfrom .layout import LTImage\nfrom .layout import LTChar\nfrom .layout import LTTextLine\nfrom .layout import LTTextBox\nfrom .layout import LTTextBoxVertical\nfrom .layout import LTTextGroup\nfrom .utils import apply_matrix_pt\nfrom .utils import mult_matrix\nfrom .utils import enc\nfrom .utils import bbox2str\nfrom . import utils\n\nimport six # Python 2+3 compatibility\n\n##  PDFLayoutAnalyzer\n##\nclass PDFLayoutAnalyzer(PDFTextDevice):\n\n    def __init__(self, rsrcmgr, pageno=1, laparams=None):\n        PDFTextDevice.__init__(self, rsrcmgr)\n        self.pageno = pageno\n        self.laparams = laparams\n        self._stack = []\n        return\n\n    def begin_page(self, page, ctm):\n        (x0, y0, x1, y1) = page.mediabox\n        (x0, y0) = apply_matrix_pt(ctm, (x0, y0))\n        (x1, y1) = apply_matrix_pt(ctm, (x1, y1))\n        mediabox = (0, 0, abs(x0-x1), abs(y0-y1))\n        self.cur_item = LTPage(self.pageno, mediabox)\n        return\n\n    def end_page(self, page):\n        assert not self._stack\n        assert isinstance(self.cur_item, LTPage)\n        if self.laparams is not None:\n            self.cur_item.analyze(self.laparams)\n        self.pageno += 1\n        self.receive_layout(self.cur_item)\n        return\n\n    def begin_figure(self, name, bbox, matrix):\n        self._stack.append(self.cur_item)\n        self.cur_item = LTFigure(name, bbox, mult_matrix(matrix, self.ctm))\n        return\n\n    def end_figure(self, _):\n        fig = self.cur_item\n        assert isinstance(self.cur_item, LTFigure)\n        self.cur_item = self._stack.pop()\n        self.cur_item.add(fig)\n        return\n\n    def render_image(self, name, stream):\n        assert isinstance(self.cur_item, LTFigure)\n        item = LTImage(name, stream,\n                       (self.cur_item.x0, self.cur_item.y0,\n                        self.cur_item.x1, self.cur_item.y1))\n        self.cur_item.add(item)\n        return\n\n    def paint_path(self, gstate, stroke, fill, evenodd, path):\n        shape = ''.join(x[0] for x in path)\n        if shape == 'ml':\n            # horizontal/vertical line\n            (_, x0, y0) = path[0]\n            (_, x1, y1) = path[1]\n            (x0, y0) = apply_matrix_pt(self.ctm, (x0, y0))\n            (x1, y1) = apply_matrix_pt(self.ctm, (x1, y1))\n            if x0 == x1 or y0 == y1:\n                self.cur_item.add(LTLine(gstate.linewidth, (x0, y0), (x1, y1)))\n                return\n        if shape == 'mlllh':\n            # rectangle\n            (_, x0, y0) = path[0]\n            (_, x1, y1) = path[1]\n            (_, x2, y2) = path[2]\n            (_, x3, y3) = path[3]\n            (x0, y0) = apply_matrix_pt(self.ctm, (x0, y0))\n            (x1, y1) = apply_matrix_pt(self.ctm, (x1, y1))\n            (x2, y2) = apply_matrix_pt(self.ctm, (x2, y2))\n            (x3, y3) = apply_matrix_pt(self.ctm, (x3, y3))\n            if ((x0 == x1 and y1 == y2 and x2 == x3 and y3 == y0) or\n                (y0 == y1 and x1 == x2 and y2 == y3 and x3 == x0)):\n                self.cur_item.add(LTRect(gstate.linewidth, (x0, y0, x2, y2)))\n                return\n        # other shapes\n        pts = []\n        for p in path:\n            for i in range(1, len(p), 2):\n                pts.append(apply_matrix_pt(self.ctm, (p[i], p[i+1])))\n        self.cur_item.add(LTCurve(gstate.linewidth, pts))\n        return\n\n    def render_char(self, matrix, font, fontsize, scaling, rise, cid):\n        try:\n            text = font.to_unichr(cid)\n            assert isinstance(text, six.text_type), text\n        except PDFUnicodeNotDefined:\n            text = self.handle_undefined_char(font, cid)\n        textwidth = font.char_width(cid)\n        textdisp = font.char_disp(cid)\n        item = LTChar(matrix, font, fontsize, scaling, rise, text, textwidth, textdisp)\n        self.cur_item.add(item)\n        return item.adv\n\n    def handle_undefined_char(self, font, cid):\n        logging.info('undefined: %r, %r', font, cid)\n        return '(cid:%d)' % cid\n\n    def receive_layout(self, ltpage):\n        return\n\n\n##  PDFPageAggregator\n##\nclass PDFPageAggregator(PDFLayoutAnalyzer):\n\n    def __init__(self, rsrcmgr, pageno=1, laparams=None):\n        PDFLayoutAnalyzer.__init__(self, rsrcmgr, pageno=pageno, laparams=laparams)\n        self.result = None\n        return\n\n    def receive_layout(self, ltpage):\n        self.result = ltpage\n        return\n\n    def get_result(self):\n        return self.result\n\n\n##  PDFConverter\n##\nclass PDFConverter(PDFLayoutAnalyzer):\n\n    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None):\n        PDFLayoutAnalyzer.__init__(self, rsrcmgr, pageno=pageno, laparams=laparams)\n        self.outfp = outfp\n        self.codec = codec\n        if hasattr(self.outfp, 'mode'):\n            if 'b' in self.outfp.mode:\n                self.outfp_binary = True\n            else:\n                self.outfp_binary = False\n        else:\n            import io\n            if isinstance(self.outfp, io.BytesIO):\n                self.outfp_binary = True\n            elif isinstance(self.outfp, io.StringIO):\n                self.outfp_binary = False\n            else:\n                try:\n                    self.outfp.write(u\"é\")\n                    self.outfp_binary = False\n                except TypeError:\n                    self.outfp_binary = True\n        return\n\n\n##  TextConverter\n##\nclass TextConverter(PDFConverter):\n\n    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None,\n                 showpageno=False, imagewriter=None):\n        PDFConverter.__init__(self, rsrcmgr, outfp, codec=codec, pageno=pageno, laparams=laparams)\n        self.showpageno = showpageno\n        self.imagewriter = imagewriter\n        return\n\n    def write_text(self, text):\n        text = utils.compatible_encode_method(text, self.codec, 'ignore')\n        if six.PY3 and self.outfp_binary:\n            text = text.encode()\n        self.outfp.write(text)\n        return\n\n    def receive_layout(self, ltpage):\n        def render(item):\n            if isinstance(item, LTContainer):\n                for child in item:\n                    render(child)\n            elif isinstance(item, LTText):\n                self.write_text(item.get_text())\n            if isinstance(item, LTTextBox):\n                self.write_text('\\n')\n            elif isinstance(item, LTImage):\n                if self.imagewriter is not None:\n                    self.imagewriter.export_image(item)\n        if self.showpageno:\n            self.write_text('Page %s\\n' % ltpage.pageid)\n        render(ltpage)\n        self.write_text('\\f')\n        return\n\n    # Some dummy functions to save memory/CPU when all that is wanted\n    # is text.  This stops all the image and drawing ouput from being\n    # recorded and taking up RAM.\n    def render_image(self, name, stream):\n        if self.imagewriter is None:\n            return\n        PDFConverter.render_image(self, name, stream)\n        return\n\n    def paint_path(self, gstate, stroke, fill, evenodd, path):\n        return\n\n\n##  HTMLConverter\n##\nclass HTMLConverter(PDFConverter):\n\n    RECT_COLORS = {\n        #'char': 'green',\n        'figure': 'yellow',\n        'textline': 'magenta',\n        'textbox': 'cyan',\n        'textgroup': 'red',\n        'curve': 'black',\n        'page': 'gray',\n    }\n\n    TEXT_COLORS = {\n        'textbox': 'blue',\n        'char': 'black',\n    }\n\n    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None,\n                 scale=1, fontscale=1.0, layoutmode='normal', showpageno=True,\n                 pagemargin=50, imagewriter=None, debug=0,\n                 rect_colors={'curve': 'black', 'page': 'gray'},\n                 text_colors={'char': 'black'}):\n        PDFConverter.__init__(self, rsrcmgr, outfp, codec=codec, pageno=pageno, laparams=laparams)\n        self.scale = scale\n        self.fontscale = fontscale\n        self.layoutmode = layoutmode\n        self.showpageno = showpageno\n        self.pagemargin = pagemargin\n        self.imagewriter = imagewriter\n        self.rect_colors = rect_colors\n        self.text_colors = text_colors\n        if debug:\n            self.rect_colors.update(self.RECT_COLORS)\n            self.text_colors.update(self.TEXT_COLORS)\n        self._yoffset = self.pagemargin\n        self._font = None\n        self._fontstack = []\n        self.write_header()\n        return\n\n    def write(self, text):\n        if self.codec:\n            text = text.encode(self.codec)\n        self.outfp.write(text)\n        return\n\n    def write_header(self):\n        self.write('<html><head>\\n')\n        if self.codec:\n            self.write('<meta http-equiv=\"Content-Type\" content=\"text/html; charset=%s\">\\n' % self.codec)\n        else:\n            self.write('<meta http-equiv=\"Content-Type\" content=\"text/html\">\\n')\n        self.write('</head><body>\\n')\n        return\n\n    def write_footer(self):\n        self.write('<div style=\"position:absolute; top:0px;\">Page: %s</div>\\n' %\n                   ', '.join('<a href=\"#%s\">%s</a>' % (i, i) for i in range(1, self.pageno)))\n        self.write('</body></html>\\n')\n        return\n\n    def write_text(self, text):\n        self.write(enc(text, None))\n        return\n\n    def place_rect(self, color, borderwidth, x, y, w, h):\n        color = self.rect_colors.get(color)\n        if color is not None:\n            self.write('<span style=\"position:absolute; border: %s %dpx solid; '\n                       'left:%dpx; top:%dpx; width:%dpx; height:%dpx;\"></span>\\n' %\n                       (color, borderwidth,\n                        x*self.scale, (self._yoffset-y)*self.scale,\n                        w*self.scale, h*self.scale))\n        return\n\n    def place_border(self, color, borderwidth, item):\n        self.place_rect(color, borderwidth, item.x0, item.y1, item.width, item.height)\n        return\n\n    def place_image(self, item, borderwidth, x, y, w, h):\n        if self.imagewriter is not None:\n            name = self.imagewriter.export_image(item)\n            self.write('<img src=\"%s\" border=\"%d\" style=\"position:absolute; left:%dpx; top:%dpx;\" '\n                       'width=\"%d\" height=\"%d\" />\\n' %\n                       (enc(name, None), borderwidth,\n                        x*self.scale, (self._yoffset-y)*self.scale,\n                        w*self.scale, h*self.scale))\n        return\n\n    def place_text(self, color, text, x, y, size):\n        color = self.text_colors.get(color)\n        if color is not None:\n            self.write('<span style=\"position:absolute; color:%s; left:%dpx; top:%dpx; font-size:%dpx;\">' %\n                       (color, x*self.scale, (self._yoffset-y)*self.scale, size*self.scale*self.fontscale))\n            self.write_text(text)\n            self.write('</span>\\n')\n        return\n\n    def begin_div(self, color, borderwidth, x, y, w, h, writing_mode=False):\n        self._fontstack.append(self._font)\n        self._font = None\n        self.write('<div style=\"position:absolute; border: %s %dpx solid; writing-mode:%s; '\n                   'left:%dpx; top:%dpx; width:%dpx; height:%dpx;\">' %\n                   (color, borderwidth, writing_mode,\n                    x*self.scale, (self._yoffset-y)*self.scale,\n                    w*self.scale, h*self.scale))\n        return\n\n    def end_div(self, color):\n        if self._font is not None:\n            self.write('</span>')\n        self._font = self._fontstack.pop()\n        self.write('</div>')\n        return\n\n    def put_text(self, text, fontname, fontsize):\n        font = (fontname, fontsize)\n        if font != self._font:\n            if self._font is not None:\n                self.write('</span>')\n            self.write('<span style=\"font-family: %s; font-size:%dpx\">' %\n                       (fontname, fontsize * self.scale * self.fontscale))\n            self._font = font\n        self.write_text(text)\n        return\n\n    def put_newline(self):\n        self.write('<br>')\n        return\n\n    def receive_layout(self, ltpage):\n        def show_group(item):\n            if isinstance(item, LTTextGroup):\n                self.place_border('textgroup', 1, item)\n                for child in item:\n                    show_group(child)\n            return\n\n        def render(item):\n            if isinstance(item, LTPage):\n                self._yoffset += item.y1\n                self.place_border('page', 1, item)\n                if self.showpageno:\n                    self.write('<div style=\"position:absolute; top:%dpx;\">' %\n                               ((self._yoffset-item.y1)*self.scale))\n                    self.write('<a name=\"%s\">Page %s</a></div>\\n' % (item.pageid, item.pageid))\n                for child in item:\n                    render(child)\n                if item.groups is not None:\n                    for group in item.groups:\n                        show_group(group)\n            elif isinstance(item, LTCurve):\n                self.place_border('curve', 1, item)\n            elif isinstance(item, LTFigure):\n                self.begin_div('figure', 1, item.x0, item.y1, item.width, item.height)\n                for child in item:\n                    render(child)\n                self.end_div('figure')\n            elif isinstance(item, LTImage):\n                self.place_image(item, 1, item.x0, item.y1, item.width, item.height)\n            else:\n                if self.layoutmode == 'exact':\n                    if isinstance(item, LTTextLine):\n                        self.place_border('textline', 1, item)\n                        for child in item:\n                            render(child)\n                    elif isinstance(item, LTTextBox):\n                        self.place_border('textbox', 1, item)\n                        self.place_text('textbox', str(item.index+1), item.x0, item.y1, 20)\n                        for child in item:\n                            render(child)\n                    elif isinstance(item, LTChar):\n                        self.place_border('char', 1, item)\n                        self.place_text('char', item.get_text(), item.x0, item.y1, item.size)\n                else:\n                    if isinstance(item, LTTextLine):\n                        for child in item:\n                            render(child)\n                        if self.layoutmode != 'loose':\n                            self.put_newline()\n                    elif isinstance(item, LTTextBox):\n                        self.begin_div('textbox', 1, item.x0, item.y1, item.width, item.height,\n                                       item.get_writing_mode())\n                        for child in item:\n                            render(child)\n                        self.end_div('textbox')\n                    elif isinstance(item, LTChar):\n                        self.put_text(item.get_text(), item.fontname, item.size)\n                    elif isinstance(item, LTText):\n                        self.write_text(item.get_text())\n            return\n        render(ltpage)\n        self._yoffset += self.pagemargin\n        return\n\n    def close(self):\n        self.write_footer()\n        return\n\n\n##  XMLConverter\n##\nclass XMLConverter(PDFConverter):\n\n    CONTROL = re.compile(u'[\\x00-\\x08\\x0b-\\x0c\\x0e-\\x1f]')\n\n    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1,\n                 laparams=None, imagewriter=None, stripcontrol=False):\n        PDFConverter.__init__(self, rsrcmgr, outfp, codec=codec, pageno=pageno, laparams=laparams)\n        self.imagewriter = imagewriter\n        self.stripcontrol = stripcontrol\n        self.write_header()\n        return\n\n    def write(self, text):\n        if self.codec:\n            text = text.encode(self.codec)\n        self.outfp.write(text)\n        return\n\n    def write_header(self):\n        if self.codec:\n            self.write('<?xml version=\"1.0\" encoding=\"%s\" ?>\\n' % self.codec)\n        else:\n            self.write('<?xml version=\"1.0\" ?>\\n')\n        self.write('<pages>\\n')\n        return\n\n    def write_footer(self):\n        self.write('</pages>\\n')\n        return\n\n    def write_text(self, text):\n        if self.stripcontrol:\n            text = self.CONTROL.sub(u'', text)\n        self.write(enc(text, None))\n        return\n\n    def receive_layout(self, ltpage):\n        def show_group(item):\n            if isinstance(item, LTTextBox):\n                self.write('<textbox id=\"%d\" bbox=\"%s\" />\\n' %\n                                 (item.index, bbox2str(item.bbox)))\n            elif isinstance(item, LTTextGroup):\n                self.write('<textgroup bbox=\"%s\">\\n' % bbox2str(item.bbox))\n                for child in item:\n                    show_group(child)\n                self.write('</textgroup>\\n')\n            return\n\n        def render(item):\n            if isinstance(item, LTPage):\n                self.write('<page id=\"%s\" bbox=\"%s\" rotate=\"%d\">\\n' %\n                                 (item.pageid, bbox2str(item.bbox), item.rotate))\n                for child in item:\n                    render(child)\n                if item.groups is not None:\n                    self.write('<layout>\\n')\n                    for group in item.groups:\n                        show_group(group)\n                    self.write('</layout>\\n')\n                self.write('</page>\\n')\n            elif isinstance(item, LTLine):\n                self.write('<line linewidth=\"%d\" bbox=\"%s\" />\\n' %\n                                 (item.linewidth, bbox2str(item.bbox)))\n            elif isinstance(item, LTRect):\n                self.write('<rect linewidth=\"%d\" bbox=\"%s\" />\\n' %\n                                 (item.linewidth, bbox2str(item.bbox)))\n            elif isinstance(item, LTCurve):\n                self.write('<curve linewidth=\"%d\" bbox=\"%s\" pts=\"%s\"/>\\n' %\n                                 (item.linewidth, bbox2str(item.bbox), item.get_pts()))\n            elif isinstance(item, LTFigure):\n                self.write('<figure name=\"%s\" bbox=\"%s\">\\n' %\n                                 (item.name, bbox2str(item.bbox)))\n                for child in item:\n                    render(child)\n                self.write('</figure>\\n')\n            elif isinstance(item, LTTextLine):\n                self.write('<textline bbox=\"%s\">\\n' % bbox2str(item.bbox))\n                for child in item:\n                    render(child)\n                self.write('</textline>\\n')\n            elif isinstance(item, LTTextBox):\n                wmode = ''\n                if isinstance(item, LTTextBoxVertical):\n                    wmode = ' wmode=\"vertical\"'\n                self.write('<textbox id=\"%d\" bbox=\"%s\"%s>\\n' %\n                                 (item.index, bbox2str(item.bbox), wmode))\n                for child in item:\n                    render(child)\n                self.write('</textbox>\\n')\n            elif isinstance(item, LTChar):\n                self.write('<text font=\"%s\" bbox=\"%s\" size=\"%.3f\">' %\n                                 (enc(item.fontname, None), bbox2str(item.bbox), item.size))\n                self.write_text(item.get_text())\n                self.write('</text>\\n')\n            elif isinstance(item, LTText):\n                self.write('<text>%s</text>\\n' % item.get_text())\n            elif isinstance(item, LTImage):\n                if self.imagewriter is not None:\n                    name = self.imagewriter.export_image(item)\n                    self.write('<image src=\"%s\" width=\"%d\" height=\"%d\" />\\n' %\n                                     (enc(name, None), item.width, item.height))\n                else:\n                    self.write('<image width=\"%d\" height=\"%d\" />\\n' %\n                                     (item.width, item.height))\n            else:\n                assert 0, item\n            return\n        render(ltpage)\n        return\n\n    def close(self):\n        self.write_footer()\n        return\n",
+			"file": "charmander/lib/python3.5/site-packages/pdfminer/converter.py",
+			"file_size": 20078,
+			"file_write_time": 131322049750000000,
 			"settings":
 			{
-				"buffer_size": 373,
+				"buffer_size": 20070,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".pydevproject",
+			"contents": "# pdfdevice.py\nfrom .pdffont import PDFUnicodeNotDefined\n\nfrom . import utils\n\n##  PDFDevice\n##\nclass PDFDevice(object):\n\n    def __init__(self, rsrcmgr):\n        self.rsrcmgr = rsrcmgr\n        self.ctm = None\n        return\n\n    def __repr__(self):\n        return '<PDFDevice>'\n\n    def close(self):\n        return\n\n    def set_ctm(self, ctm):\n        self.ctm = ctm\n        return\n\n    def begin_tag(self, tag, props=None):\n        return\n\n    def end_tag(self):\n        return\n\n    def do_tag(self, tag, props=None):\n        return\n\n    def begin_page(self, page, ctm):\n        return\n\n    def end_page(self, page):\n        return\n\n    def begin_figure(self, name, bbox, matrix):\n        return\n\n    def end_figure(self, name):\n        return\n\n    def paint_path(self, graphicstate, stroke, fill, evenodd, path):\n        return\n\n    def render_image(self, name, stream):\n        return\n\n    def render_string(self, textstate, seq):\n        return\n\n\n##  PDFTextDevice\n##\nclass PDFTextDevice(PDFDevice):\n\n    def render_string(self, textstate, seq):\n        matrix = utils.mult_matrix(textstate.matrix, self.ctm)\n        font = textstate.font\n        fontsize = textstate.fontsize\n        scaling = textstate.scaling * .01\n        charspace = textstate.charspace * scaling\n        wordspace = textstate.wordspace * scaling\n        rise = textstate.rise\n        if font.is_multibyte():\n            wordspace = 0\n        dxscale = .001 * fontsize * scaling\n        if font.is_vertical():\n            textstate.linematrix = self.render_string_vertical(\n                seq, matrix, textstate.linematrix, font, fontsize,\n                scaling, charspace, wordspace, rise, dxscale)\n        else:\n            textstate.linematrix = self.render_string_horizontal(\n                seq, matrix, textstate.linematrix, font, fontsize,\n                scaling, charspace, wordspace, rise, dxscale)\n        return\n\n    def render_string_horizontal(self, seq, matrix, pos,\n                                 font, fontsize, scaling, charspace, wordspace, rise, dxscale):\n        (x, y) = pos\n        needcharspace = False\n        for obj in seq:\n            if utils.isnumber(obj):\n                x -= obj*dxscale\n                needcharspace = True\n            else:\n                for cid in font.decode(obj):\n                    if needcharspace:\n                        x += charspace\n                    x += self.render_char(utils.translate_matrix(matrix, (x, y)),\n                                          font, fontsize, scaling, rise, cid)\n                    if cid == 32 and wordspace:\n                        x += wordspace\n                    needcharspace = True\n        return (x, y)\n\n    def render_string_vertical(self, seq, matrix, pos,\n                               font, fontsize, scaling, charspace, wordspace, rise, dxscale):\n        (x, y) = pos\n        needcharspace = False\n        for obj in seq:\n            if utils.isnumber(obj):\n                y -= obj*dxscale\n                needcharspace = True\n            else:\n                for cid in font.decode(obj):\n                    if needcharspace:\n                        y += charspace\n                    y += self.render_char(utils.translate_matrix(matrix, (x, y)),\n                                          font, fontsize, scaling, rise, cid)\n                    if cid == 32 and wordspace:\n                        y += wordspace\n                    needcharspace = True\n        return (x, y)\n\n    def render_char(self, matrix, font, fontsize, scaling, rise, cid):\n        return 0\n\n\n##  TagExtractor\n##\nclass TagExtractor(PDFDevice):\n\n    def __init__(self, rsrcmgr, outfp, codec='utf-8'):\n        PDFDevice.__init__(self, rsrcmgr)\n        self.outfp = outfp\n        self.codec = codec\n        self.pageno = 0\n        self._stack = []\n        return\n\n    def render_string(self, textstate, seq):\n        font = textstate.font\n        text = ''\n        for obj in seq:\n            obj = utils.make_compat_str(obj)\n            if not isinstance(obj, str):\n                continue\n            chars = font.decode(obj)\n            for cid in chars:\n                try:\n                    char = font.to_unichr(cid)\n                    text += char\n                except PDFUnicodeNotDefined:\n                    print(chars)\n                    pass\n        self.outfp.write(utils.enc(text, self.codec))\n        return\n\n    def begin_page(self, page, ctm):\n        output = '<page id=\"%s\" bbox=\"%s\" rotate=\"%d\">' % (self.pageno, utils.bbox2str(page.mediabox), page.rotate)\n        self.outfp.write(utils.make_compat_bytes(output))\n        return\n\n    def end_page(self, page):\n        self.outfp.write(utils.make_compat_bytes('</page>\\n'))\n        self.pageno += 1\n        return\n\n    def begin_tag(self, tag, props=None):\n        s = ''\n        if isinstance(props, dict):\n            s = ''.join(' %s=\"%s\"' % (utils.enc(k), utils.enc(str(v))) for (k, v)\n                        in sorted(props.iteritems()))\n        out_s = '<%s%s>' % (utils.enc(tag.name), s)\n        self.outfp.write(utils.make_compat_bytes(out_s))\n        self._stack.append(tag)\n        return\n\n    def end_tag(self):\n        assert self._stack\n        tag = self._stack.pop(-1)\n        out_s = '</%s>' % utils.enc(tag.name)\n        self.outfp.write(utils.make_compat_bytes(out_s))\n        return\n\n    def do_tag(self, tag, props=None):\n        self.begin_tag(tag, props)\n        self._stack.pop(-1)\n        return\n",
+			"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfdevice.py",
+			"file_size": 5472,
+			"file_write_time": 131316808020000000,
 			"settings":
 			{
-				"buffer_size": 429,
+				"buffer_size": 5465,
 				"line_ending": "Unix"
 			}
 		}
@@ -561,10 +600,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 291.0,
-		"last_filter": "",
+		"height": 127.0,
+		"last_filter": "Package Control: INs",
 		"selected_items":
 		[
+			[
+				"Package Control: INs",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
 			[
 				"Install",
 				"Package Control: Install Package"
@@ -614,10 +665,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"Package Control: disa",
-				"Package Control: Disable Package"
-			],
-			[
 				"Package Control: insta",
 				"Package Control: Install Package"
 			],
@@ -654,7 +701,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -726,16 +773,33 @@
 	],
 	"file_history":
 	[
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/io.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/os.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/read_bacteria.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pdb/__init__.py",
+		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/six.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/pdfminer/__init__.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/re.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/obscalculi_testing_pdf_conv.txt",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/rough_pdf_draft",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/process_pdf_rough.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/obscalculi_testing_pdf_conv.html",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/sid_output.txt",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/.gitignore",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/Sidharth Mishra.txt",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/testing_cci.py",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/input.txt",
+		"/Users/sidmishraw/Documents/workspace/PythonLearning/.pydevproject",
+		"/Users/sidmishraw/.pyenv/versions/3.5.2/lib/python3.5/pprint.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/bacteria.json",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/PythonLearning.sublime-project",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/weakref.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/anaconda_rust/AnacondaRUST.sublime-settings",
-		"/Users/sidmishraw/.pyenv/versions/3.5.2/lib/python3.5/pprint.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Python Breakpoints/PythonBreakpoints.sublime-settings",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/_weakrefset.py",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/os.py",
 		"/Users/sidmishraw/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/transform.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/charmander/lib/python3.5/site-packages/sphinx/util/osutil.py",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py",
 		"/Users/sidmishraw/Documents/workspace/react_learning/src/task.jsx",
@@ -775,7 +839,6 @@
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/requirements.txt",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/README.md",
 		"/Library/Python/2.7/site-packages/werkzeug/local.py",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/testing_cci.py",
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/hrank.py",
 		"/Users/sidmishraw/Documents/workspace/amc_rough_node/templates/login.html",
 		"/Users/sidmishraw/Documents/workspace/amc_rough_node/index.js",
@@ -788,7 +851,6 @@
 		"/Users/sidmishraw/Documents/workspace/PythonLearning/terminal.glue",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/templates/index.html",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/templates/login.html",
-		"/Users/sidmishraw/Documents/workspace/PythonLearning/.gitignore",
 		"/Users/sidmishraw/Documents/SJSU/ClassesSpring2017/CS_267/notes.md",
 		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/example_flask.py",
 		"/Users/sidmishraw/Documents/workspace/project_amc_theatre/core/__init__.py",
@@ -838,26 +900,11 @@
 		"/usr/local/bin/pip3.5",
 		"/usr/local/lib/python3.5/site-packages/pip/__main__.py",
 		"/Users/sidmishraw/Documents/workspace/java_ds_implementations/java_points.txt",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__init__.py",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/trees/__init__.py",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/test_trees_module.py",
-		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/Python.tmpl",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/README.md",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__pycache__/lists.cpython-35.pyc",
-		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__pycache__/__init__.cpython-35.pyc",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/CppRevisited/src/translationunits/lists.cpp",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/CppRevisited/src/headers/lists.h",
-		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/HeaderFile.tmpl",
-		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/header_templates/C++.tmpl",
-		"/Users/sidmishraw/Documents/workspace/sublimetext_templates/body_templates/HeaderFile.tmpl",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/main.cpp",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/BackToCpp/lists.h",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/README.md",
-		"/Users/sidmishraw/Documents/workspace/cpp_stuff1/BackToCpp/.gitignore"
+		"/Users/sidmishraw/Documents/workspace/Python_DS_Suite/lists/__init__.py"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -871,6 +918,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"+ ",
+			",",
+			"zlib",
+			"Aim",
+			"2 Aim",
+			"2 GUHA",
+			"presented",
+			"import isinstance",
+			"def isinstance",
+			"export_image",
+			"file",
+			"export_image",
+			"export",
+			"__process_pdf__",
+			"os",
+			"SEPARATOR",
+			"pathsep",
+			"stream",
+			"endstream",
 			">",
 			"time",
 			"task",
@@ -952,24 +1018,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "transform.py",
+					"file": "process_pdf.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4178,
+						"buffer_size": 4814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3508,
-								3508
+								3138,
+								3149
 							]
 						],
 						"settings":
@@ -979,6 +1045,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								},
 								{
 									"characters": ".",
@@ -1019,10 +1089,10 @@
 								7,
 								225,
 								2,
-								9,
-								18,
-								40,
-								4,
+								15,
+								13,
+								42,
+								12,
 								0,
 								0,
 								0,
@@ -1041,27 +1111,258 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1865.0,
+						"translation.y": 1493.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "read_bacteria.py",
+					"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfinterp.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 576,
+						"buffer_size": 25296,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								576,
-								576
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								15,
+								17,
+								6,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "charmander/bin/pdf2txt.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								15,
+								17,
+								6,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfdocument.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								118
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								2,
+								15,
+								17,
+								6,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "charmander/lib/python3.5/site-packages/pdfminer/image.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								34
 							]
 						],
 						"settings":
@@ -1107,85 +1408,10 @@
 								7,
 								225,
 								2,
-								13,
-								0,
-								48,
-								54,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "PythonLearning.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								2,
-								9,
-								18,
-								33,
-								58,
+								15,
+								17,
+								6,
+								42,
 								0,
 								0,
 								0,
@@ -1199,8 +1425,8 @@
 								3,
 								46
 							],
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 8,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1211,20 +1437,108 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": ".pydevproject",
+					"buffer": 5,
+					"file": "charmander/lib/python3.5/site-packages/pdfminer/converter.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 20070,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+								87,
+								100
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
 								0,
-								0
+								67,
+								10,
+								7,
+								225,
+								2,
+								15,
+								17,
+								6,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "charmander/lib/python3.5/site-packages/pdfminer/pdfdevice.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1158,
+								1159
 							]
 						],
 						"settings":
@@ -1259,10 +1573,10 @@
 								7,
 								225,
 								2,
-								4,
-								16,
-								54,
-								39,
+								15,
+								17,
+								6,
+								42,
 								0,
 								0,
 								0,
@@ -1276,13 +1590,15 @@
 								3,
 								46
 							],
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1290,7 +1606,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1319,6 +1635,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -1327,7 +1647,7 @@
 	"project": "PythonLearning.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1369,7 +1689,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
